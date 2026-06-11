@@ -11,10 +11,10 @@
   // Inject CSS that force-opens the mobile dropdown when our class is present.
   var style = document.createElement('style');
   style.textContent =
-    '.stanton-menu-open nav.elementor-nav-menu--dropdown{display:block !important;max-height:85vh !important;height:auto !important;overflow-y:auto !important;visibility:visible !important;opacity:1 !important;}' +
-    '.stanton-menu-open nav.elementor-nav-menu--dropdown ul{display:block !important;}' +
-    '.stanton-menu-open nav.elementor-nav-menu--dropdown li{display:block !important;}' +
-    '.stanton-menu-open nav.elementor-nav-menu--dropdown a{display:block !important;}';
+    '.stanton-menu-open nav.elementor-nav-menu--dropdown{display:block !important;position:absolute !important;top:100% !important;left:0 !important;right:0 !important;width:100% !important;max-height:85vh !important;overflow-y:auto !important;visibility:visible !important;opacity:1 !important;background:#ffffff !important;z-index:9999 !important;box-shadow:0 10px 28px rgba(0,0,0,.16) !important;}' +
+    '.stanton-menu-open nav.elementor-nav-menu--dropdown *{max-height:none !important;height:auto !important;overflow:visible !important;visibility:visible !important;opacity:1 !important;}' +
+    '.stanton-menu-open nav.elementor-nav-menu--dropdown ul,.stanton-menu-open nav.elementor-nav-menu--dropdown li{display:block !important;}' +
+    '.stanton-menu-open nav.elementor-nav-menu--dropdown a{display:block !important;padding:13px 22px !important;line-height:1.4 !important;}';
   document.head.appendChild(style);
 
   onReady(function () {
