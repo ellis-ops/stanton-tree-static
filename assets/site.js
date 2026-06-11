@@ -1,5 +1,6 @@
 /* Clean, hand-written JS for the static Stanton Tree Service site.
-   Restores the mobile hamburger menu toggle that was stripped during malware cleanup.
+   Restores the mobile hamburger menu (stripped during malware cleanup) using a
+   class + injected CSS we fully control, so it works without Elementor's JS.
    No external calls, no tracking — safe. */
 (function () {
   function onReady(fn) {
@@ -7,27 +8,26 @@
     else document.addEventListener('DOMContentLoaded', fn);
   }
 
+  // Inject CSS that force-opens the mobile dropdown when our class is present.
+  var style = document.createElement('style');
+  style.textContent =
+    '.stanton-menu-open nav.elementor-nav-menu--dropdown{display:block !important;max-height:85vh !important;height:auto !important;overflow-y:auto !important;visibility:visible !important;opacity:1 !important;}' +
+    '.stanton-menu-open nav.elementor-nav-menu--dropdown ul{display:block !important;}' +
+    '.stanton-menu-open nav.elementor-nav-menu--dropdown li{display:block !important;}' +
+    '.stanton-menu-open nav.elementor-nav-menu--dropdown a{display:block !important;}';
+  document.head.appendChild(style);
+
   onReady(function () {
-    // Elementor mobile menu: clicking the hamburger toggles the dropdown nav.
-    var toggles = document.querySelectorAll('.elementor-menu-toggle');
-    toggles.forEach(function (toggle) {
+    document.querySelectorAll('.elementor-menu-toggle').forEach(function (toggle) {
       toggle.addEventListener('click', function (e) {
         e.preventDefault();
-        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
-        toggle.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
         var widget = toggle.closest('.elementor-widget-nav-menu') || toggle.parentElement;
-        // The mobile menu container is the widget-level <nav class="elementor-nav-menu--dropdown">,
-        // NOT the nested submenu <ul>. Target the nav element specifically.
-        var dropdown = widget && widget.querySelector('nav.elementor-nav-menu--dropdown');
-        if (dropdown) {
-          dropdown.style.display = isOpen ? 'none' : 'block';
-          dropdown.setAttribute('aria-hidden', isOpen ? 'true' : 'false');
-        }
+        var open = widget.classList.toggle('stanton-menu-open');
+        toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+        var dd = widget.querySelector('nav.elementor-nav-menu--dropdown');
+        if (dd) dd.setAttribute('aria-hidden', open ? 'false' : 'true');
       });
     });
-
-    // Nested submenu expand/collapse on mobile (tap a parent item to open its submenu).
-    document.querySelectorAll('.elementor-nav-menu--dropdown .menu-item-has-children > a .sub-arrow, .elementor-nav-menu--dropdown .elementor-item-active + .sub-menu').forEach(function () {});
 
     // Smooth-scroll for in-page anchor links (e.g. "How It Works").
     document.querySelectorAll('a[href^="#"]').forEach(function (link) {
@@ -35,10 +35,7 @@
         var id = link.getAttribute('href');
         if (id.length > 1) {
           var target = document.querySelector(id);
-          if (target) {
-            e.preventDefault();
-            target.scrollIntoView({ behavior: 'smooth' });
-          }
+          if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
         }
       });
     });
