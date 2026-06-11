@@ -16,12 +16,18 @@
         var isOpen = toggle.getAttribute('aria-expanded') === 'true';
         toggle.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
         var widget = toggle.closest('.elementor-widget-nav-menu') || toggle.parentElement;
-        var dropdown = widget && widget.querySelector('.elementor-nav-menu--dropdown');
+        // The mobile menu container is the widget-level <nav class="elementor-nav-menu--dropdown">,
+        // NOT the nested submenu <ul>. Target the nav element specifically.
+        var dropdown = widget && widget.querySelector('nav.elementor-nav-menu--dropdown');
         if (dropdown) {
           dropdown.style.display = isOpen ? 'none' : 'block';
+          dropdown.setAttribute('aria-hidden', isOpen ? 'true' : 'false');
         }
       });
     });
+
+    // Nested submenu expand/collapse on mobile (tap a parent item to open its submenu).
+    document.querySelectorAll('.elementor-nav-menu--dropdown .menu-item-has-children > a .sub-arrow, .elementor-nav-menu--dropdown .elementor-item-active + .sub-menu').forEach(function () {});
 
     // Smooth-scroll for in-page anchor links (e.g. "How It Works").
     document.querySelectorAll('a[href^="#"]').forEach(function (link) {
