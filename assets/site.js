@@ -64,6 +64,18 @@
       if (a && a.getAttribute('href') && a.getAttribute('href') !== '#') setOpen(false);
     });
 
+    // Align the homepage "Why Stanton" reasons grid: the original has an empty
+    // leading + trailing grid cell that pushes the reasons out of line. Hide the
+    // empty cells so the 7 reasons flow cleanly from the left.
+    var whyGrid = document.querySelector('.elementor-element-ff14548');
+    if (whyGrid) {
+      Array.prototype.forEach.call(whyGrid.children, function (cell) {
+        if (cell.textContent.trim().length < 2 && !cell.querySelector('img')) {
+          cell.style.display = 'none';
+        }
+      });
+    }
+
     // Smooth-scroll for in-page anchor links.
     document.querySelectorAll('a[href^="#"]').forEach(function (link) {
       link.addEventListener('click', function (e) {
