@@ -23,6 +23,10 @@
     '.elementor-nav-menu--main .menu-item-has-children{position:relative;}' +
     '.elementor-nav-menu--main .menu-item-has-children:hover>.sub-menu{display:block !important;top:100% !important;left:0 !important;opacity:1 !important;visibility:visible !important;}' +
     '.elementor-nav-menu--main .sub-menu .menu-item-has-children:hover>.sub-menu{display:block !important;top:0 !important;left:100% !important;}' +
+    '.elementor-nav-menu--main .sub-menu{background:#ffffff !important;min-width:300px !important;padding:8px 0 !important;margin:0 !important;border-radius:10px !important;box-shadow:0 12px 32px rgba(20,40,30,.18) !important;list-style:none !important;z-index:9999 !important;}' +
+    '.elementor-nav-menu--main .sub-menu li{display:block !important;margin:0 !important;}' +
+    '.elementor-nav-menu--main .sub-menu a{display:block !important;padding:10px 20px !important;color:#243b2e !important;font-size:14px !important;line-height:1.45 !important;white-space:normal !important;background:transparent !important;}' +
+    '.elementor-nav-menu--main .sub-menu a:hover{background:#eef6f0 !important;color:#1c7a43 !important;}' +
     // Blog/post card thumbnails: fill the card area (no gray gap).
     '.elementor-post__thumbnail img{position:absolute !important;left:0 !important;top:0 !important;inset:0 !important;width:100% !important;height:100% !important;object-fit:cover !important;transform:none !important;max-height:none !important;}';
   var style = document.createElement('style');
