@@ -122,7 +122,9 @@ export default async function handler(req) {
     const bullets = Array.isArray(d.bullets) ? d.bullets.slice(0, 5) : null;
 
     const plainLen = String(headline).replace(/\*/g, '').length;
-    const hSize = plainLen > 80 ? 60 : plainLen > 50 ? 72 : 86;
+    let hSize = plainLen > 80 ? 60 : plainLen > 50 ? 72 : 86;
+    // List cards carry much more content — keep the headline compact so it all fits.
+    if (bullets && bullets.length) hSize = Math.min(hSize, 56);
 
     const [fonts, logo] = await Promise.all([loadFonts(), loadLogo()]);
 
@@ -144,19 +146,21 @@ export default async function handler(req) {
 
     const middle = [];
     if (bullets && bullets.length) {
+      const tight = bullets.length > 3 || (bullets.length === 3 && body);
       const rows = bullets.map((b, i) => el('div', {
-        display: 'flex', alignItems: 'flex-start', paddingTop: 26, paddingBottom: 26,
+        display: 'flex', alignItems: 'flex-start',
+        paddingTop: tight ? 16 : 22, paddingBottom: tight ? 16 : 22,
         ...(i === 0 ? { borderTop: `1px solid ${HAIR}` } : {}),
         borderBottom: `1px solid ${HAIR}`
       }, [
-        el('span', { fontFamily: 'Playfair Display', fontStyle: 'italic', fontSize: 36, color: GREEN, width: 76, flexShrink: 0 }, String(b.n || i + 1)),
+        el('span', { fontFamily: 'Playfair Display', fontStyle: 'italic', fontSize: tight ? 30 : 34, color: GREEN, width: 70, flexShrink: 0 }, String(b.n || i + 1)),
         el('div', { display: 'flex', flexDirection: 'column', flexGrow: 1 }, [
-          el('span', { fontFamily: 'Inter', fontWeight: 600, fontSize: 30, color: INK }, String(b.title || '')),
-          b.desc ? el('span', { fontFamily: 'Inter', fontSize: 25, color: '#6B776F', marginTop: 6 }, String(b.desc)) : null
+          el('span', { fontFamily: 'Inter', fontWeight: 600, fontSize: tight ? 26 : 29, color: INK }, String(b.title || '')),
+          b.desc ? el('span', { fontFamily: 'Inter', fontSize: tight ? 22 : 24, color: '#6B776F', marginTop: 5 }, String(b.desc)) : null
         ].filter(Boolean))
       ]));
-      middle.push(el('div', { display: 'flex', flexDirection: 'column', marginTop: 40 }, rows));
-      if (body) middle.push(el('div', { display: 'flex', flexWrap: 'wrap', marginTop: 34, lineHeight: 1.5, maxWidth: 960, fontFamily: 'Inter' }, richBody(body, 27)));
+      middle.push(el('div', { display: 'flex', flexDirection: 'column', marginTop: 30 }, rows));
+      if (body) middle.push(el('div', { display: 'flex', flexWrap: 'wrap', marginTop: 26, lineHeight: 1.45, maxWidth: 960, fontFamily: 'Inter' }, richBody(body, 25)));
     } else if (body) {
       middle.push(el('div', { display: 'flex', flexWrap: 'wrap', marginTop: 44, lineHeight: 1.55, maxWidth: 960, fontFamily: 'Inter' }, richBody(body, 31)));
     }
