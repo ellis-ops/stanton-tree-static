@@ -355,24 +355,68 @@
 				object-fit: contain;
 			}</style><link rel="stylesheet" href="/assets/autoptimize_6b1e1b9982288e4c1e05241437f3-dcb1527e.css" media="all" /><link rel="stylesheet" href="/assets/autoptimize_single_2ea92e5aed24f9274163d-cf55bac1.css" media="all" /><link rel="stylesheet" href="/assets/autoptimize_single_4421e16cd5a1269e75369-44e15c4d.css" media="all" /><link rel="stylesheet" href="/assets/autoptimize_single_0ad45132ef8a3a4a415b2-bc5c4c30.css" media="all" /><link rel="stylesheet" href="/assets/autoptimize_single_5de8272492990f71636a2-0733c8a6.css" media="all" /><link rel="stylesheet" href="/assets/autoptimize_single_814da4399b8f67495deeb-50200cb6.css" media="all" /><link rel='stylesheet' id='elementor-gf-lora-css' href='https://fonts.googleapis.com/css?family=Lora:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;display=swap' media='all' /><link rel='stylesheet' id='elementor-gf-robotoslab-css' href='https://fonts.googleapis.com/css?family=Roboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;display=swap' media='all' /><link rel='stylesheet' id='elementor-gf-montserrat-css' href='https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;display=swap' media='all' /><style id="stump-submenu-fix">
 @media (min-width: 1025px) {
-  /* show nested city pages inline inside the open dropdown */
-  .elementor-nav-menu ul.sub-menu ul.sub-menu {
+  /* the dropdown clips anything outside its box - allow the fly-out to escape */
+  .elementor-nav-menu > li.menu-item-has-children > ul.sub-menu {
+    overflow: visible !important;
+  }
+  /* city pages hide under "Stump Grinding" and fly out on hover */
+  .elementor-nav-menu ul.sub-menu > li.menu-item-has-children {
+    position: relative !important;
+  }
+  .elementor-nav-menu ul.sub-menu > li.menu-item-has-children > a:after {
+    content: "B8";
+    float: right;
+    margin-left: 10px;
+    font-size: 12px;
+    opacity: 0.7;
+  }
+  .elementor-nav-menu ul.sub-menu > li.menu-item-has-children > ul.sub-menu {
+    display: none !important;
+    position: absolute !important;
+    left: 100% !important;
+    right: auto !important;
+    top: -8px !important;
+    bottom: auto !important;
+    margin: 0 !important;
+    padding: 8px 0 !important;
+    width: 320px !important;
+    min-width: 320px !important;
+    max-height: calc(100vh - 160px);
+    overflow-y: auto;
+    background: #ffffff !important;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    list-style: none;
+    z-index: 99999;
+  }
+  .elementor-nav-menu ul.sub-menu > li.menu-item-has-children:hover > ul.sub-menu,
+  .elementor-nav-menu ul.sub-menu > li.menu-item-has-children:focus-within > ul.sub-menu {
+    display: block !important;
+    /* opacity-fix */
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+    pointer-events: auto !important;
+    height: auto !important;
+    overflow-y: auto !important;
+    clip: auto !important;
+    clip-path: none !important;
+  }
+  /* flatten the deeper level (cities nested under Dunwoody) into the same panel */
+  .elementor-nav-menu ul.sub-menu > li.menu-item-has-children > ul.sub-menu ul.sub-menu {
     display: block !important;
     position: static !important;
     margin: 0 !important;
-    padding: 0 0 0 18px !important;
+    padding: 0 !important;
     background: transparent !important;
     box-shadow: none !important;
     border: none !important;
-    min-width: 0 !important;
     width: auto !important;
+    min-width: 0 !important;
   }
-  .elementor-nav-menu ul.sub-menu ul.sub-menu a.elementor-sub-item {
-    font-size: 13px !important;
-    line-height: 1.4 !important;
-    padding-top: 6px !important;
-    padding-bottom: 6px !important;
-    opacity: 0.88;
+  .elementor-nav-menu ul.sub-menu > li.menu-item-has-children > ul.sub-menu li.menu-item-has-children > a:after {
+    content: "" !important;
+    margin: 0 !important;
   }
 }
 </style>
