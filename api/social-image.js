@@ -70,7 +70,18 @@ function words(text, marker, makeSpan) {
       ? part.startsWith('*') && part.endsWith('*') && !part.startsWith('**')
       : part.startsWith('**') && part.endsWith('**');
     const clean = accent ? part.slice(marker.length, -marker.length) : part;
-    for (const w of clean.split(/\s+/).filter(Boolean)) out.push(makeSpan(w, accent));
+    for (const w of clean.split(/\s+/).filter(Boolean)) {
+      // glue leading punctuation ("," "." "?") onto the previous word so no gap appears
+      if (/^[,.;:!?]/.test(w) && out.length) {
+        const prev = out[out.length - 1];
+        const punct = w.match(/^[,.;:!?]+/)[0];
+        prev.props.children = String(prev.props.children) + punct;
+        const rest = w.slice(punct.length);
+        if (rest) out.push(makeSpan(rest, accent));
+      } else {
+        out.push(makeSpan(w, accent));
+      }
+    }
   }
   return out;
 }
@@ -135,7 +146,7 @@ export default async function handler(req) {
     if (bullets && bullets.length) {
       const rows = bullets.map((b, i) => el('div', {
         display: 'flex', alignItems: 'flex-start', paddingTop: 26, paddingBottom: 26,
-        borderTop: i === 0 ? `1px solid ${HAIR}` : undefined,
+        ...(i === 0 ? { borderTop: `1px solid ${HAIR}` } : {}),
         borderBottom: `1px solid ${HAIR}`
       }, [
         el('span', { fontFamily: 'Playfair Display', fontStyle: 'italic', fontSize: 36, color: GREEN, width: 76, flexShrink: 0 }, String(b.n || i + 1)),
