@@ -18,7 +18,13 @@
     '#stanton-mm .sub-menu a{padding-left:42px;font-size:15px;font-weight:500;color:#4a5f53;}' +
     '#stanton-mm .sub-menu .sub-menu a{padding-left:60px;}' +
     '#stanton-mm-close{position:fixed;top:18px;right:20px;width:40px;height:40px;border:none;background:#e8f0ea;border-radius:8px;font-size:26px;line-height:40px;color:#243b2e;z-index:100000;cursor:pointer;display:none;}' +
-    '#stanton-mm.open ~ #stanton-mm-close,#stanton-mm-close.show{display:block;}';
+    '#stanton-mm.open ~ #stanton-mm-close,#stanton-mm-close.show{display:block;}' +
+    // Desktop dropdown on hover (Elementor's toggle JS was stripped).
+    '.elementor-nav-menu--main .menu-item-has-children{position:relative;}' +
+    '.elementor-nav-menu--main .menu-item-has-children:hover>.sub-menu{display:block !important;top:100% !important;left:0 !important;opacity:1 !important;visibility:visible !important;}' +
+    '.elementor-nav-menu--main .sub-menu .menu-item-has-children:hover>.sub-menu{display:block !important;top:0 !important;left:100% !important;}' +
+    // Blog/post card thumbnails: fill the card area (no gray gap).
+    '.elementor-post__thumbnail img{position:absolute !important;left:0 !important;top:0 !important;inset:0 !important;width:100% !important;height:100% !important;object-fit:cover !important;transform:none !important;max-height:none !important;}';
   var style = document.createElement('style');
   style.textContent = css;
   document.head.appendChild(style);
