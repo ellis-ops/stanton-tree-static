@@ -33,7 +33,7 @@ export default async function handler(req, res) {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        from: 'Stanton Tree Service <onboarding@resend.dev>',
+        from: 'Stanton Tree Service <stanton@partylabatlanta.com>',
         to: ['stantontreeservice1@gmail.com'],
         reply_to: email || undefined,
         subject: `New Estimate Request from ${firstName} ${lastName}`.trim(),
