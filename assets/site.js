@@ -21,8 +21,13 @@
     '#stanton-mm.open ~ #stanton-mm-close,#stanton-mm-close.show{display:block;}' +
     // Desktop dropdown on hover (Elementor's toggle JS was stripped).
     '.elementor-nav-menu--main .menu-item-has-children{position:relative;}' +
-    '.elementor-nav-menu--main .menu-item-has-children:hover>.sub-menu{display:block !important;top:100% !important;left:0 !important;opacity:1 !important;visibility:visible !important;}' +
+    // Keep the submenu open while hovering EITHER the parent or the submenu itself.
+    '.elementor-nav-menu--main .menu-item-has-children:hover>.sub-menu,.elementor-nav-menu--main .sub-menu:hover{display:block !important;top:100% !important;left:0 !important;opacity:1 !important;visibility:visible !important;}' +
+    // Bridge the gap between menu bar and panel so the mouse can travel down without the submenu closing.
+    '.elementor-nav-menu--main .menu-item-has-children:hover>.sub-menu::before{content:"";position:absolute;top:-18px;left:0;right:0;height:18px;background:transparent;}' +
     '.elementor-nav-menu--main .sub-menu .menu-item-has-children:hover>.sub-menu{display:block !important;top:0 !important;left:100% !important;}' +
+    // Hide the two empty placeholder boxes the original developer left blank (About + Service Areas sections).
+    '.elementor-element-2125223,.elementor-element-cce275d{display:none !important;}' +
     '.elementor-nav-menu--main .sub-menu{background:#ffffff !important;width:400px !important;min-width:400px !important;max-width:420px !important;padding:8px 0 !important;margin:0 !important;border-radius:10px !important;box-shadow:0 12px 32px rgba(20,40,30,.18) !important;list-style:none !important;z-index:9999 !important;overflow:hidden !important;}' +
     '.elementor-nav-menu--main .sub-menu li{display:block !important;margin:0 !important;width:100% !important;}' +
     '.elementor-nav-menu--main .sub-menu a{display:block !important;width:100% !important;box-sizing:border-box !important;padding:10px 20px !important;color:#243b2e !important;font-size:14px !important;line-height:1.45 !important;white-space:normal !important;overflow-wrap:break-word !important;background:#ffffff !important;}' +
