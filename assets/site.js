@@ -21,11 +21,9 @@
     '#stanton-mm.open ~ #stanton-mm-close,#stanton-mm-close.show{display:block;}' +
     // Desktop dropdown on hover (Elementor's toggle JS was stripped).
     '.elementor-nav-menu--main .menu-item-has-children{position:relative;}' +
-    // Keep the submenu open while hovering EITHER the parent or the submenu itself.
-    '.elementor-nav-menu--main .menu-item-has-children:hover>.sub-menu,.elementor-nav-menu--main .sub-menu:hover{display:block !important;top:100% !important;left:0 !important;opacity:1 !important;visibility:visible !important;}' +
-    // Bridge the gap between menu bar and panel so the mouse can travel down without the submenu closing.
-    '.elementor-nav-menu--main .menu-item-has-children:hover>.sub-menu::before{content:"";position:absolute;top:-18px;left:0;right:0;height:18px;background:transparent;}' +
-    '.elementor-nav-menu--main .sub-menu .menu-item-has-children:hover>.sub-menu{display:block !important;top:0 !important;left:100% !important;}' +
+    // Keep the submenu open while hovering the parent OR while the JS grace-period class is on.
+    '.elementor-nav-menu--main .menu-item-has-children:hover>.sub-menu,.elementor-nav-menu--main .menu-item-has-children.st-open>.sub-menu{display:block !important;top:100% !important;left:0 !important;opacity:1 !important;visibility:visible !important;}' +
+    '.elementor-nav-menu--main .sub-menu .menu-item-has-children:hover>.sub-menu,.elementor-nav-menu--main .sub-menu .menu-item-has-children.st-open>.sub-menu{display:block !important;top:0 !important;left:100% !important;}' +
     // Hide the two empty placeholder boxes the original developer left blank (About + Service Areas sections).
     '.elementor-element-2125223,.elementor-element-cce275d{display:none !important;}' +
     '.elementor-nav-menu--main .sub-menu{background:#ffffff !important;width:400px !important;min-width:400px !important;max-width:420px !important;padding:8px 0 !important;margin:0 !important;border-radius:10px !important;box-shadow:0 12px 32px rgba(20,40,30,.18) !important;list-style:none !important;z-index:9999 !important;overflow:hidden !important;}' +
@@ -77,6 +75,26 @@
     panel.addEventListener('click', function (e) {
       var a = e.target.closest('a');
       if (a && a.getAttribute('href') && a.getAttribute('href') !== '#') setOpen(false);
+    });
+
+    // Desktop dropdowns: Elementor forces a 22px margin on the panel, leaving a dead
+    // strip between menu and panel where another element steals the hover (menu closed
+    // before you could click). Kill the margin inline (beats any stylesheet) and add a
+    // 350ms grace period so brief mouse slips don't close the menu.
+    document.querySelectorAll('.elementor-nav-menu--main .menu-item-has-children').forEach(function (li) {
+      var sub = li.querySelector(':scope > .sub-menu');
+      if (sub) {
+        sub.style.setProperty('margin', '0', 'important');
+        sub.style.setProperty('padding-top', '8px', 'important');
+      }
+      var timer = null;
+      li.addEventListener('mouseenter', function () {
+        if (timer) { clearTimeout(timer); timer = null; }
+        li.classList.add('st-open');
+      });
+      li.addEventListener('mouseleave', function () {
+        timer = setTimeout(function () { li.classList.remove('st-open'); }, 350);
+      });
     });
 
     // Align the homepage "Why Stanton" reasons grid: the original has an empty
