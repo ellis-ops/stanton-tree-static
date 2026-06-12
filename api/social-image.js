@@ -29,8 +29,8 @@ function loadFonts() {
     ];
     const fonts = [];
     for (const u of cssUrls) {
-      // Old UA makes Google Fonts return TTF (satori can't read woff2)
-      const css = await (await fetch(u, { headers: { 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)' } })).text();
+      // No browser User-Agent -> Google Fonts serves TTF (satori can't read woff2)
+      const css = await (await fetch(u)).text();
       const blocks = css.match(/@font-face\s*{[^}]+}/g) || [];
       for (const b of blocks) {
         const fam = (b.match(/font-family:\s*'([^']+)'/) || [])[1];
