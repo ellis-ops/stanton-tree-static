@@ -60,22 +60,40 @@ function loadLogo() {
   return logoPromise;
 }
 
-// "Same *tree*." -> spans, *...* = green italic serif
+// Split marked-up text into one span per WORD so lines wrap naturally
+// (satori wraps between flex children, so whole segments would jump lines otherwise).
+function words(text, marker, makeSpan) {
+  const re = marker === '*' ? /(\*[^*]+\*)/g : /(\*\*[^*]+\*\*)/g;
+  const out = [];
+  for (const part of String(text).split(re).filter(Boolean)) {
+    const accent = marker === '*'
+      ? part.startsWith('*') && part.endsWith('*') && !part.startsWith('**')
+      : part.startsWith('**') && part.endsWith('**');
+    const clean = accent ? part.slice(marker.length, -marker.length) : part;
+    for (const w of clean.split(/\s+/).filter(Boolean)) out.push(makeSpan(w, accent));
+  }
+  return out;
+}
+
+// "Same *tree*." -> word spans, *...* = green italic serif
 function richHeadline(text, fontSize) {
-  const parts = String(text).split(/(\*[^*]+\*)/g).filter(Boolean);
-  return parts.map(p => p.startsWith('*') && p.endsWith('*')
-    ? el('span', { fontFamily: 'Playfair Display', fontStyle: 'italic', color: GREEN, fontSize, marginRight: 14 }, p.slice(1, -1) + ' ')
-    : el('span', { fontFamily: 'Playfair Display', color: INK, fontSize, marginRight: 14 }, p)
-  );
+  return words(text, '*', (w, accent) => el('span', {
+    fontFamily: 'Playfair Display',
+    fontStyle: accent ? 'italic' : 'normal',
+    color: accent ? GREEN : INK,
+    fontSize,
+    marginRight: fontSize * 0.24
+  }, w));
 }
 
 // body with **green** accents
 function richBody(text, fontSize) {
-  const parts = String(text).split(/(\*\*[^*]+\*\*)/g).filter(Boolean);
-  return parts.map(p => p.startsWith('**') && p.endsWith('**')
-    ? el('span', { color: GREEN, fontWeight: 600, fontSize, marginRight: 8 }, p.slice(2, -2) + ' ')
-    : el('span', { color: BODY, fontSize, marginRight: 8 }, p)
-  );
+  return words(text, '**', (w, accent) => el('span', {
+    color: accent ? GREEN : BODY,
+    fontWeight: accent ? 600 : 400,
+    fontSize,
+    marginRight: fontSize * 0.27
+  }, w));
 }
 
 export default async function handler(req) {
@@ -93,7 +111,7 @@ export default async function handler(req) {
     const bullets = Array.isArray(d.bullets) ? d.bullets.slice(0, 5) : null;
 
     const plainLen = String(headline).replace(/\*/g, '').length;
-    const hSize = plainLen > 80 ? 58 : plainLen > 55 ? 68 : 82;
+    const hSize = plainLen > 80 ? 60 : plainLen > 50 ? 72 : 86;
 
     const [fonts, logo] = await Promise.all([loadFonts(), loadLogo()]);
 
