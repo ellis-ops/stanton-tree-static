@@ -128,6 +128,15 @@ export default async function handler(req) {
 
     const [fonts, logo] = await Promise.all([loadFonts(), loadLogo()]);
 
+    // Concentric rings decoration (top-right corner), like the reference cards.
+    const rings = [520, 400, 280, 160].map(size => el('div', {
+      position: 'absolute',
+      top: -size * 0.38, right: -size * 0.38,
+      width: size, height: size,
+      borderRadius: 9999,
+      border: '2.5px solid #C5DCCC'
+    }, []));
+
     const headerRow = el('div', { display: 'flex' }, [
       logo
         ? el('div', { display: 'flex', backgroundColor: '#FFFFFF', padding: '14px 18px', borderRadius: 2 },
@@ -138,10 +147,10 @@ export default async function handler(req) {
           ])
     ]);
 
-    const kickerEl = el('div', { display: 'flex', marginTop: 44 },
+    const kickerEl = el('div', { display: 'flex' },
       [el('span', { fontFamily: 'Space Mono', fontSize: 23, letterSpacing: 7, color: GREEN }, String(kicker).toUpperCase())]);
 
-    const headlineEl = el('div', { display: 'flex', flexWrap: 'wrap', marginTop: 22, lineHeight: 1.16, maxWidth: 980 },
+    const headlineEl = el('div', { display: 'flex', flexWrap: 'wrap', marginTop: 26, lineHeight: 1.16, maxWidth: 980 },
       richHeadline(headline, hSize));
 
     const middle = [];
@@ -162,12 +171,29 @@ export default async function handler(req) {
       middle.push(el('div', { display: 'flex', flexDirection: 'column', marginTop: 30 }, rows));
       if (body) middle.push(el('div', { display: 'flex', flexWrap: 'wrap', marginTop: 26, lineHeight: 1.45, maxWidth: 960, fontFamily: 'Inter' }, richBody(body, 25)));
     } else if (body) {
-      middle.push(el('div', { display: 'flex', flexWrap: 'wrap', marginTop: 44, lineHeight: 1.55, maxWidth: 960, fontFamily: 'Inter' }, richBody(body, 31)));
+      middle.push(el('div', { display: 'flex', flexWrap: 'wrap', marginTop: 40, lineHeight: 1.55, maxWidth: 940, fontFamily: 'Inter' }, richBody(body, 33)));
     }
+
+    // Service pill chips fill the lower zone on standard cards (like the references).
+    const chipLabels = Array.isArray(d.chips) ? d.chips.slice(0, 4)
+      : ['TREE REMOVAL', 'TRIMMING & PRUNING', 'STUMP GRINDING', '24/7 STORM RESPONSE'];
+    const chips = (!bullets || !bullets.length)
+      ? el('div', { display: 'flex', flexWrap: 'wrap', gap: 16, marginBottom: 34 },
+          chipLabels.map(c => el('div', {
+            display: 'flex', border: '1.5px solid #C7CDC1', borderRadius: 999,
+            padding: '13px 24px'
+          }, [el('span', { fontFamily: 'Space Mono', fontSize: 20, letterSpacing: 2, color: INK }, String(c).toUpperCase())])))
+      : null;
+
+    // Center the message block vertically so the card feels full, not top-heavy.
+    const contentZone = el('div', {
+      display: 'flex', flexDirection: 'column', justifyContent: 'center', flexGrow: 1,
+      paddingBottom: 20, paddingTop: 8
+    }, [kickerEl, headlineEl, ...middle]);
 
     const footer = el('div', {
       display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-      borderTop: `1px solid ${HAIR}`, paddingTop: 34, marginTop: 'auto'
+      borderTop: `1px solid ${HAIR}`, paddingTop: 34
     }, [
       el('span', { fontFamily: 'Space Mono', fontSize: 27, letterSpacing: 3, color: INK }, '(470) 914-3402'),
       el('span', { fontFamily: 'Space Mono', fontSize: 27, letterSpacing: 2, color: INK }, 'stantontreeservice.com')
@@ -175,8 +201,8 @@ export default async function handler(req) {
 
     const card = el('div', {
       display: 'flex', flexDirection: 'column', width: 1080, height: 1080,
-      backgroundColor: CREAM, padding: 64, fontFamily: 'Inter'
-    }, [headerRow, kickerEl, headlineEl, ...middle, footer]);
+      backgroundColor: CREAM, padding: 64, fontFamily: 'Inter', position: 'relative'
+    }, [...((!bullets || !bullets.length) ? rings : []), headerRow, contentZone, chips, footer].filter(Boolean));
 
     return new ImageResponse(card, {
       width: 1080, height: 1080, fonts,
