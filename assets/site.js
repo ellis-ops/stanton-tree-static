@@ -86,6 +86,49 @@
       });
     }
 
+    // Wire the estimate/contact forms to our serverless email function.
+    document.querySelectorAll('form.elementor-form').forEach(function (form) {
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var get = function (n) { var el = form.querySelector('[name="form_fields[' + n + ']"]'); return el ? el.value.trim() : ''; };
+        var services = Array.prototype.slice.call(form.querySelectorAll('[name="form_fields[field_1d44874][]"]:checked')).map(function (c) {
+          var lab = form.querySelector('label[for="' + c.id + '"]');
+          return lab ? lab.textContent.trim() : c.value;
+        });
+        var payload = {
+          firstName: get('name'),
+          lastName: get('field_d59e1de'),
+          email: get('email'),
+          phone: get('field_697db88'),
+          services: services,
+          message: get('message'),
+          website: '' // honeypot
+        };
+        var btn = form.querySelector('button[type="submit"], .elementor-button');
+        var oldTxt = btn ? btn.textContent : '';
+        if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
+        fetch('/api/contact', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        }).then(function (r) { return r.json(); }).then(function (j) {
+          if (j && j.ok) {
+            form.innerHTML = '<div style="padding:28px 10px;text-align:center;"><div style="font-size:40px;line-height:1;">✅</div><h3 style="margin:14px 0 8px;color:#1c7a43;">Thank you! Your request has been received.</h3><p style="color:#4a5f53;margin:0;">Our team will review your information and get back to you with a quote shortly.</p></div>';
+          } else { throw new Error('send failed'); }
+        }).catch(function () {
+          if (btn) { btn.disabled = false; btn.textContent = oldTxt; }
+          var err = form.querySelector('.stanton-form-error');
+          if (!err) {
+            err = document.createElement('p');
+            err.className = 'stanton-form-error';
+            err.style.cssText = 'color:#b3261e;margin-top:12px;';
+            form.appendChild(err);
+          }
+          err.textContent = 'Something went wrong. Please call us at (470) 914-3402.';
+        });
+      });
+    });
+
     // Smooth-scroll for in-page anchor links.
     document.querySelectorAll('a[href^="#"]').forEach(function (link) {
       link.addEventListener('click', function (e) {
