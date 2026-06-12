@@ -130,6 +130,7 @@ export default async function handler(req) {
 
     // Concentric rings decoration (top-right corner), like the reference cards.
     const rings = [520, 400, 280, 160].map(size => el('div', {
+      display: 'flex',
       position: 'absolute',
       top: -size * 0.38, right: -size * 0.38,
       width: size, height: size,
@@ -181,7 +182,7 @@ export default async function handler(req) {
       ? el('div', { display: 'flex', flexWrap: 'wrap', gap: 16, marginBottom: 34 },
           chipLabels.map(c => el('div', {
             display: 'flex', border: '1.5px solid #C7CDC1', borderRadius: 999,
-            padding: '13px 24px'
+            paddingTop: 13, paddingBottom: 13, paddingLeft: 24, paddingRight: 24
           }, [el('span', { fontFamily: 'Space Mono', fontSize: 20, letterSpacing: 2, color: INK }, String(c).toUpperCase())])))
       : null;
 
@@ -204,9 +205,14 @@ export default async function handler(req) {
       backgroundColor: CREAM, padding: 64, fontFamily: 'Inter', position: 'relative'
     }, [...((!bullets || !bullets.length) ? rings : []), headerRow, contentZone, chips, footer].filter(Boolean));
 
-    return new ImageResponse(card, {
-      width: 1080, height: 1080, fonts,
-      headers: { 'Cache-Control': 'public, max-age=31536000, immutable' }
+    // Render fully before responding so any layout error surfaces as a readable 500
+    // instead of a silent empty 200.
+    const png = await new ImageResponse(card, { width: 1080, height: 1080, fonts }).arrayBuffer();
+    return new Response(png, {
+      headers: {
+        'Content-Type': 'image/png',
+        'Cache-Control': 'public, max-age=86400'
+      }
     });
   } catch (e) {
     return new Response('card error: ' + e.message, { status: 500 });
