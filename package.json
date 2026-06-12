@@ -1,0 +1,7 @@
+{
+  "name": "stanton-tree-static",
+  "private": true,
+  "dependencies": {
+    "@vercel/og": "^0.6.8"
+  }
+}
