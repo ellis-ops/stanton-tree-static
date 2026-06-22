@@ -1,0 +1,8 @@
+{
+  "redirects": [
+    { "source": "/tree-removal-service-marietta", "destination": "/tree-removal-service-in-marietta-ga/", "permanent": true },
+    { "source": "/tree-removal-service-marietta/", "destination": "/tree-removal-service-in-marietta-ga/", "permanent": true },
+    { "source": "/tree-removal-trimming-stump-grinding-marietta-ga", "destination": "/tree-removal-service-in-marietta-ga/", "permanent": true },
+    { "source": "/tree-removal-trimming-stump-grinding-marietta-ga/", "destination": "/tree-removal-service-in-marietta-ga/", "permanent": true }
+  ]
+}
