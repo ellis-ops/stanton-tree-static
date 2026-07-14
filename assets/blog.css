@@ -1,0 +1,92 @@
+/* Stanton Tree Service - blog post reading enhancements.
+   Scoped: this file is linked ONLY from blog posts, so it never affects
+   service/city/landing pages. Improves measure, typography rhythm, and hero framing. */
+
+/* Comfortable reading measure, centered */
+.page-content{
+  max-width: 760px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Body type: larger, airier, easy on the eyes */
+.page-content p,
+.page-content li{
+  font-size: 1.14rem !important;
+  line-height: 1.78 !important;
+  color: #38423b !important;
+}
+.page-content p{ margin: 0 0 1.3rem !important; }
+
+/* Intro paragraph gets a touch more presence */
+.page-content > figure.wp-block-image + p{
+  font-size: 1.22rem !important;
+  color: #2c352f !important;
+}
+
+/* Headings: clear hierarchy and breathing room above each section */
+.page-content h2{
+  font-size: 1.72rem !important;
+  line-height: 1.25 !important;
+  color: #17301f !important;
+  margin: 2.9rem 0 1rem !important;
+  letter-spacing: -0.01em;
+}
+.page-content h3{
+  font-size: 1.28rem !important;
+  line-height: 1.3 !important;
+  color: #17301f !important;
+  margin: 2rem 0 .6rem !important;
+}
+
+/* Lists: green dot markers, comfortable spacing */
+.page-content ul{
+  margin: 0 0 1.5rem !important;
+  padding-left: 0 !important;
+  list-style: none !important;
+}
+.page-content ul li{
+  position: relative;
+  padding-left: 1.6rem !important;
+  margin-bottom: .65rem !important;
+}
+.page-content ul li::before{
+  content:"";
+  position:absolute; left:.15rem; top:.72em;
+  width:.5rem; height:.5rem; border-radius:50%;
+  background:#2e7d32;
+}
+
+/* Links and emphasis in brand green */
+.page-content a{ color:#1b5e20 !important; text-decoration: underline; text-underline-offset: 2px; }
+.page-content a:hover{ color:#123f13 !important; }
+.page-content strong{ color:#1d2822; }
+
+/* Hero image: consistent, modern framing across every post */
+.page-content > figure.wp-block-image{ margin: 0 0 2.1rem !important; }
+.page-content > figure.wp-block-image img{
+  width:100% !important;
+  height:auto !important;
+  border-radius: 14px;
+  box-shadow: 0 12px 34px rgba(18,40,24,.14);
+}
+
+/* Post title: aligned to the reading column, controlled scale */
+.page-header .entry-title{
+  max-width: 800px !important;
+  margin: 2.25rem auto 1.1rem !important;
+  padding: 0 20px;
+  font-size: clamp(1.95rem, 4.2vw, 2.6rem) !important;
+  line-height: 1.14 !important;
+  letter-spacing: -0.015em;
+  color:#152219 !important;
+}
+
+@media (max-width: 640px){
+  .page-content{ padding-left:16px; padding-right:16px; }
+  .page-content p, .page-content li{ font-size: 1.07rem !important; }
+  .page-content > figure.wp-block-image + p{ font-size: 1.12rem !important; }
+  .page-content h2{ font-size: 1.5rem !important; margin-top: 2.3rem !important; }
+}
