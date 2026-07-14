@@ -11,9 +11,10 @@
   padding-right: 20px;
 }
 
-/* Body type: larger, airier, easy on the eyes */
+/* Body type: Lora serif for a warm, editorial read (font already loaded site-wide) */
 .page-content p,
 .page-content li{
+  font-family: 'Lora', Georgia, 'Times New Roman', serif !important;
   font-size: 1.14rem !important;
   line-height: 1.78 !important;
   color: #38423b !important;
@@ -26,8 +27,10 @@
   color: #2c352f !important;
 }
 
-/* Headings: clear hierarchy and breathing room above each section */
+/* Headings: Montserrat for a modern, trustworthy voice (font already loaded) */
 .page-content h2{
+  font-family: 'Montserrat', system-ui, -apple-system, Arial, sans-serif !important;
+  font-weight: 700 !important;
   font-size: 1.72rem !important;
   line-height: 1.25 !important;
   color: #17301f !important;
@@ -35,6 +38,8 @@
   letter-spacing: -0.01em;
 }
 .page-content h3{
+  font-family: 'Montserrat', system-ui, -apple-system, Arial, sans-serif !important;
+  font-weight: 600 !important;
   font-size: 1.28rem !important;
   line-height: 1.3 !important;
   color: #17301f !important;
@@ -75,6 +80,8 @@
 
 /* Post title: aligned to the reading column, controlled scale */
 .page-header .entry-title{
+  font-family: 'Montserrat', system-ui, -apple-system, Arial, sans-serif !important;
+  font-weight: 700 !important;
   max-width: 800px !important;
   margin: 2.25rem auto 1.1rem !important;
   padding: 0 20px;
