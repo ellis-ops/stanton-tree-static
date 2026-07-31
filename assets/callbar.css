@@ -1,0 +1,19 @@
+/* Stanton Tree Service - prominent click-to-call for Google Ads landing pages.
+   Linked ONLY from the 4 ads landing pages. Brand: #1b5e20 green, #d97706 amber. */
+
+.st-callbar{margin:14px auto 6px;padding:0 16px;max-width:860px;text-align:center}
+.st-callbar-inner{background:#f5faf5;border:1px solid #cfe3cf;border-radius:14px;padding:18px 16px 16px}
+.st-callbar-label{display:block;font-size:.95rem;letter-spacing:.02em;color:#2d3748;margin-bottom:10px;font-weight:600}
+.st-callbar-btn{display:inline-block;background:#1b5e20;color:#ffffff !important;text-decoration:none !important;font-weight:800;font-size:clamp(1.6rem,5.5vw,2.4rem);line-height:1.1;padding:16px 34px;border-radius:999px;box-shadow:0 8px 22px rgba(27,94,32,.28);transition:transform .12s ease, background .12s ease}
+.st-callbar-btn:hover{background:#144d18;transform:translateY(-1px)}
+.st-callbar-btn:active{transform:scale(.98)}
+.st-callbar-sub{display:block;margin-top:10px;font-size:.9rem;color:#4a5568}
+.st-callbar-sub strong{color:#1b5e20}
+
+/* Sticky call bar - mobile only, pinned to the bottom */
+.st-callbar-sticky{display:none}
+@media (max-width:767px){
+  .st-callbar-sticky{display:flex;align-items:center;justify-content:center;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:9999;background:#1b5e20;color:#ffffff !important;text-decoration:none !important;font-weight:800;font-size:1.15rem;padding:14px 12px calc(14px + env(safe-area-inset-bottom));box-shadow:0 -4px 16px rgba(0,0,0,.22)}
+  .st-callbar-sticky:active{background:#144d18}
+  body{padding-bottom:58px}
+}
