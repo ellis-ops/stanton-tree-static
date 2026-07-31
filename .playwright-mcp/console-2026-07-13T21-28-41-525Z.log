@@ -1,2 +1,0 @@
-[     192ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8899/api/social-image?p=eyJraWNrZXIiOiJUUkVFIEhFQUxUSCDCtyBNRVRSTyBBVExBTlRBIiwiaGVhZGxpbmUiOiJJcyB5b3VyIHRyZWUgKmRlYWQqLCBvciBqdXN0IGR5aW5nPyIsImJvZHkiOiJIb3cgdG8gdGVsbCB0aGUgZGlmZmVyZW5jZSwgYW5kIHdoZW4gYSB0cmVlIGhhcyB0byBjb21lIGRvd24uIEZyZWUgZXN0aW1hdGVzOiAqKig0NzApIDkxNC0zNDAyKioifQ:0
-[     319ms] [WARNING] Ignoring Event: localhost @ https://analytics.ahrefs.com/analytics.js:0
