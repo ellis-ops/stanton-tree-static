@@ -1,0 +1,263 @@
+- generic [active] [ref=f2e1]:
+  - link "Skip to content" [ref=f2e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner:
+    - generic [ref=f2e5]:
+      - link [ref=f2e8] [cursor=pointer]:
+        - /url: ""
+        - img "Logo Stanton Tree Service" [ref=f2e9]
+      - generic [ref=f2e11]:
+        - navigation "Menu" [ref=f2e12]:
+          - list [ref=f2e13]:
+            - listitem [ref=f2e14]:
+              - link "Home" [ref=f2e15] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f2e16]:
+              - link "About us" [ref=f2e17] [cursor=pointer]:
+                - /url: /#aboutus
+            - listitem [ref=f2e18]:
+              - link "Our Services" [ref=f2e19] [cursor=pointer]:
+                - /url: /#services
+              - text: ▸
+            - listitem [ref=f2e20]:
+              - link "Why Stanton" [ref=f2e21] [cursor=pointer]:
+                - /url: /#whystanton
+            - listitem [ref=f2e22]:
+              - link "Service Areas" [ref=f2e23] [cursor=pointer]:
+                - /url: /service-areas/
+            - listitem [ref=f2e24]:
+              - link "Blog" [ref=f2e25] [cursor=pointer]:
+                - /url: /blog/
+        - text: ▸
+      - link "Contact" [ref=f2e28] [cursor=pointer]:
+        - /url: /contact/
+    - text: ▸ ▸
+  - main [ref=f2e31]:
+    - heading "Is My Tree Dead or Just Dying? How to Tell If It Needs to Come Down" [level=1] [ref=f2e33]
+    - generic [ref=f2e34]:
+      - figure [ref=f2e35]:
+        - img "Checking whether a tree is dead or just dying in an Atlanta yard" [ref=f2e36]
+      - paragraph [ref=f2e37]: A dead tree and a stressed one can look almost the same from your back porch. Both drop leaves early. Both have bare branches. But one might bounce back next spring, and the other is a hazard sitting over your roof. If you are trying to figure out whether your tree is dead or just dying, here is how we tell the difference here in Metro Atlanta, and when it is time to take it down.
+      - heading "The quick test most people miss" [level=2] [ref=f2e38]
+      - paragraph [ref=f2e39]: Before you call anyone, do the scratch test. Pick a small twig and scrape off a little bark with your thumbnail or a pocket knife. If you see green underneath and it feels a little damp, that part of the tree is still alive. If it is brown, dry, and snaps clean with no bend, that section is dead.
+      - paragraph [ref=f2e40]: "Do this in a few spots: a low branch, a higher limb, and the trunk if you can reach it. A tree can be dead at the top and still alive near the base, or the other way around. One brown twig does not mean much. Brown everywhere is a different story."
+      - heading "Signs your tree is dying but might still be saved" [level=2] [ref=f2e41]
+      - list [ref=f2e42]:
+        - listitem [ref=f2e43]: Leaves come in late, smaller than usual, or only on part of the tree
+        - listitem [ref=f2e44]: A few dead branches mixed in with healthy ones
+        - listitem [ref=f2e45]: A thinning canopy where you can see more sky through it than you used to
+        - listitem [ref=f2e46]: Yellow leaves in summer when they should be deep green
+      - paragraph [ref=f2e47]:
+        - text: A dying tree still has some fight left in it. A lot of the trees we look at are just stressed from Georgia's heavy clay soil, a soggy spring, or roots that got cut during a construction project. Sometimes a good pruning, some mulch, and a season of patience turns it around. If you are seeing these signs, it is worth getting
+        - link "an honest look from a pro" [ref=f2e48] [cursor=pointer]:
+          - /url: /tree-trimming-pruning-services-in-metro-atlanta-ga/
+        - text: before you assume the worst. We go deeper into warning signs in our guide on
+        - link "how to tell if your tree is sick" [ref=f2e49] [cursor=pointer]:
+          - /url: /how-to-tell-if-your-tree-is-sick/
+        - text: .
+      - heading "Signs your tree is already dead" [level=2] [ref=f2e50]
+      - list [ref=f2e51]:
+        - listitem [ref=f2e52]: No green under the bark anywhere you check
+        - listitem [ref=f2e53]: Bark peeling off in sheets, leaving smooth wood underneath
+        - listitem [ref=f2e54]: Mushrooms or shelf fungus growing on the trunk or at the base
+        - listitem [ref=f2e55]: Deep cracks, or a hollow sound when you knock on the trunk
+        - listitem [ref=f2e56]: Fine twigs that snap instead of bend, all over the tree
+        - listitem [ref=f2e57]: It leafed out everywhere except one section that stayed bare all summer
+      - paragraph [ref=f2e58]: Fungus at the base is the one that worries us most. By the time you see mushrooms growing out of the trunk or roots, the inside of the tree is often already rotting. That tree can look fine standing there and still come down in the next storm.
+      - 'heading "The Atlanta problem: pines and storms" [level=2] [ref=f2e59]'
+      - paragraph [ref=f2e60]: We get a lot of these calls right after storm season. Metro Atlanta is full of tall pines, and a dead or dying pine is one of the most dangerous trees you can have near a house. Pines do not give you much warning. They hold their needles, look mostly normal, and then a summer thunderstorm rolls through Cobb or Gwinnett and drops one on a roof.
+      - paragraph [ref=f2e61]:
+        - text: If the dead tree is a pine leaning toward your house, a driveway, or a power line, skip the scratch test. That is a call-now situation. We handle
+        - link "emergency tree removal" [ref=f2e62] [cursor=pointer]:
+          - /url: /emergency-tree-removal-atlanta/
+        - text: across the metro for exactly this reason.
+      - heading "When a dead tree has to come down" [level=2] [ref=f2e63]
+      - paragraph [ref=f2e64]: "Not every dead tree is an emergency. A small dead dogwood in the back corner of the yard can wait until you are ready. But a tree needs to come down soon when:"
+      - list [ref=f2e65]:
+        - listitem [ref=f2e66]: It is leaning over your house, a fence, or where the kids play
+        - listitem [ref=f2e67]: It is anywhere near power lines
+        - listitem [ref=f2e68]: The trunk is hollow, cracked, or has fungus at the base
+        - listitem [ref=f2e69]: Big limbs are already dropping on their own
+        - listitem [ref=f2e70]: It is a tall pine or oak within striking distance of anything you care about
+      - paragraph [ref=f2e71]:
+        - text: Once a tree is fully dead, it only gets more brittle and more expensive to handle safely. Dead wood is unpredictable to climb and cut, which is part of why
+        - link "tree removal costs" [ref=f2e72] [cursor=pointer]:
+          - /url: /how-much-does-tree-removal-cost-in-atlanta-2026-price-guide/
+        - text: tend to climb the longer you wait.
+      - heading "Not sure? Get a real set of eyes on it" [level=2] [ref=f2e73]
+      - paragraph [ref=f2e74]: You do not have to make this call from the ground with a pair of binoculars. If you have done the scratch test and you are still not sure, that is normal. Dead, dying, and just-stressed can be genuinely hard to tell apart, especially on a big tree.
+      - paragraph [ref=f2e75]:
+        - text: "We will come out, look at the whole tree, and tell you straight: it is fine, it needs some care, or it needs to go. No pressure either way. Call Stanton Tree Service at"
+        - link "(470) 914-3402" [ref=f2e76] [cursor=pointer]:
+          - /url: tel:+14709143402
+        - text: for a free estimate, and we will help you figure out what that tree is really doing.
+  - region "Tree services by area" [ref=f2e77]:
+    - generic [ref=f2e78]:
+      - heading "Tree services across Metro Atlanta" [level=2] [ref=f2e79]
+      - paragraph [ref=f2e80]:
+        - text: Licensed and insured crews serving Atlanta and the surrounding cities. Call
+        - link "(470) 914-3402" [ref=f2e81] [cursor=pointer]:
+          - /url: tel:+14709143402
+        - text: for a free quote.
+      - generic [ref=f2e82]:
+        - generic [ref=f2e83]:
+          - heading "Tree Removal" [level=3] [ref=f2e84]
+          - list [ref=f2e85]:
+            - listitem [ref=f2e86]:
+              - link "Atlanta" [ref=f2e87] [cursor=pointer]:
+                - /url: /tree-removal-atlanta-ga/
+            - listitem [ref=f2e88]:
+              - link "Alpharetta" [ref=f2e89] [cursor=pointer]:
+                - /url: /tree-removal-alpharetta-ga/
+            - listitem [ref=f2e90]:
+              - link "Roswell" [ref=f2e91] [cursor=pointer]:
+                - /url: /tree-removal-roswell-ga/
+            - listitem [ref=f2e92]:
+              - link "Sandy Springs" [ref=f2e93] [cursor=pointer]:
+                - /url: /tree-removal-sandy-springs-ga/
+            - listitem [ref=f2e94]:
+              - link "Kennesaw" [ref=f2e95] [cursor=pointer]:
+                - /url: /tree-removal-kennesaw-ga/
+            - listitem [ref=f2e96]:
+              - link "Johns Creek" [ref=f2e97] [cursor=pointer]:
+                - /url: /tree-removal-johns-creek-ga/
+            - listitem [ref=f2e98]:
+              - link "Milton" [ref=f2e99] [cursor=pointer]:
+                - /url: /tree-removal-milton-ga/
+            - listitem [ref=f2e100]:
+              - link "Marietta" [ref=f2e101] [cursor=pointer]:
+                - /url: /tree-removal-service-in-marietta-ga/
+        - generic [ref=f2e102]:
+          - heading "Tree Trimming & Pruning" [level=3] [ref=f2e103]
+          - list [ref=f2e104]:
+            - listitem [ref=f2e105]:
+              - link "Metro Atlanta" [ref=f2e106] [cursor=pointer]:
+                - /url: /tree-trimming-pruning-services-in-metro-atlanta-ga/
+            - listitem [ref=f2e107]:
+              - link "Alpharetta" [ref=f2e108] [cursor=pointer]:
+                - /url: /tree-trimming-alpharetta-ga/
+            - listitem [ref=f2e109]:
+              - link "Marietta" [ref=f2e110] [cursor=pointer]:
+                - /url: /tree-trimming-marietta-ga/
+            - listitem [ref=f2e111]:
+              - link "Roswell" [ref=f2e112] [cursor=pointer]:
+                - /url: /tree-trimming-roswell-ga/
+            - listitem [ref=f2e113]:
+              - link "Sandy Springs" [ref=f2e114] [cursor=pointer]:
+                - /url: /tree-trimming-sandy-springs-ga/
+            - listitem [ref=f2e115]:
+              - link "Johns Creek" [ref=f2e116] [cursor=pointer]:
+                - /url: /tree-trimming-johns-creek-ga/
+            - listitem [ref=f2e117]:
+              - link "Milton" [ref=f2e118] [cursor=pointer]:
+                - /url: /tree-trimming-milton-ga/
+        - generic [ref=f2e119]:
+          - heading "Emergency Tree Removal" [level=3] [ref=f2e120]
+          - list [ref=f2e121]:
+            - listitem [ref=f2e122]:
+              - link "Atlanta" [ref=f2e123] [cursor=pointer]:
+                - /url: /emergency-tree-removal-atlanta/
+            - listitem [ref=f2e124]:
+              - link "Alpharetta" [ref=f2e125] [cursor=pointer]:
+                - /url: /emergency-tree-removal-alpharetta-ga/
+            - listitem [ref=f2e126]:
+              - link "Marietta" [ref=f2e127] [cursor=pointer]:
+                - /url: /emergency-tree-removal-marietta-ga/
+            - listitem [ref=f2e128]:
+              - link "Roswell" [ref=f2e129] [cursor=pointer]:
+                - /url: /emergency-tree-removal-roswell-ga/
+            - listitem [ref=f2e130]:
+              - link "Sandy Springs" [ref=f2e131] [cursor=pointer]:
+                - /url: /emergency-tree-removal-sandy-springs-ga/
+            - listitem [ref=f2e132]:
+              - link "Johns Creek" [ref=f2e133] [cursor=pointer]:
+                - /url: /emergency-tree-removal-johns-creek-ga/
+            - listitem [ref=f2e134]:
+              - link "Milton" [ref=f2e135] [cursor=pointer]:
+                - /url: /emergency-tree-removal-milton-ga/
+            - listitem [ref=f2e136]:
+              - link "Storm Damage" [ref=f2e137] [cursor=pointer]:
+                - /url: /emergency-tree-removal-atlanta-storm-damage/
+        - generic [ref=f2e138]:
+          - heading "Helpful Guides" [level=3] [ref=f2e139]
+          - list [ref=f2e140]:
+            - listitem [ref=f2e141]:
+              - link "Signs a tree needs removal" [ref=f2e142] [cursor=pointer]:
+                - /url: /signs-you-need-problem-tree-removal/
+            - listitem [ref=f2e143]:
+              - link "Is your tree sick?" [ref=f2e144] [cursor=pointer]:
+                - /url: /how-to-tell-if-your-tree-is-sick/
+            - listitem [ref=f2e145]:
+              - link "Tree removal permits in Atlanta" [ref=f2e146] [cursor=pointer]:
+                - /url: /do-i-need-a-permit-to-remove-a-tree-in-atlanta/
+            - listitem [ref=f2e147]:
+              - link "Tree removal cost guide" [ref=f2e148] [cursor=pointer]:
+                - /url: /how-much-does-tree-removal-cost-in-atlanta-2026-price-guide/
+            - listitem [ref=f2e149]:
+              - link "How to choose a tree service" [ref=f2e150] [cursor=pointer]:
+                - /url: /how-to-choose-a-tree-service-company-7-questions-to-ask-before-you-hire/
+            - listitem [ref=f2e151]:
+              - link "Best time to trim trees" [ref=f2e152] [cursor=pointer]:
+                - /url: /best-time-to-trim-trees-atlanta-ga/
+  - contentinfo [ref=f2e153]:
+    - generic [ref=f2e155]:
+      - generic [ref=f2e157]:
+        - generic [ref=f2e158]:
+          - heading "Get in Touch with Stanton Tree Service Today" [level=2] [ref=f2e160]
+          - paragraph [ref=f2e162]: Protect your property. Enhance your landscape. Trust your trees to Atlanta’s certified experts.
+        - link "Get an Estimate" [ref=f2e164] [cursor=pointer]:
+          - /url: /contact/
+      - generic [ref=f2e168]:
+        - generic [ref=f2e169]:
+          - link [ref=f2e172] [cursor=pointer]:
+            - /url: ""
+            - img "Logo Stanton Tree Service" [ref=f2e173]
+          - generic [ref=f2e174]:
+            - paragraph [ref=f2e176]: Company
+            - generic [ref=f2e177]:
+              - navigation "Menu" [ref=f2e178]:
+                - list [ref=f2e179]:
+                  - listitem [ref=f2e180]:
+                    - link "Home" [ref=f2e181] [cursor=pointer]:
+                      - /url: /
+                  - listitem [ref=f2e182]:
+                    - link "About us" [ref=f2e183] [cursor=pointer]:
+                      - /url: /#aboutus
+                  - listitem [ref=f2e184]:
+                    - link "Our Services" [ref=f2e185] [cursor=pointer]:
+                      - /url: /#services
+                    - text: ▸
+                  - listitem [ref=f2e186]:
+                    - link "Why Stanton" [ref=f2e187] [cursor=pointer]:
+                      - /url: /#whystanton
+                  - listitem [ref=f2e188]:
+                    - link "Service Areas" [ref=f2e189] [cursor=pointer]:
+                      - /url: /service-areas/
+                  - listitem [ref=f2e190]:
+                    - link "Blog" [ref=f2e191] [cursor=pointer]:
+                      - /url: /blog/
+              - text: ▸
+          - generic [ref=f2e192]:
+            - paragraph [ref=f2e194]: Contact
+            - list [ref=f2e196]:
+              - listitem [ref=f2e197]:
+                - generic [ref=f2e203]: Stanton Tree Service – Your Local ATL Tree Care Specialists
+              - listitem [ref=f2e204]:
+                - link "(470) 914-3402" [ref=f2e205] [cursor=pointer]:
+                  - /url: tel:+14709143402
+              - listitem [ref=f2e210]:
+                - generic [ref=f2e215]: www.stantontreeservice.com
+              - listitem [ref=f2e216]:
+                - link "stantontreeservice1@gmail.com" [ref=f2e217] [cursor=pointer]:
+                  - /url: mailto:stantontreeservice1@gmail.com
+          - generic [ref=f2e222]:
+            - paragraph [ref=f2e224]: Connect
+            - list [ref=f2e226]:
+              - listitem [ref=f2e227]:
+                - link "Instagram" [ref=f2e228] [cursor=pointer]:
+                  - /url: https://www.instagram.com/stantontreeservice/
+              - listitem [ref=f2e232]:
+                - link "Facebook-f" [ref=f2e233] [cursor=pointer]:
+                  - /url: https://www.facebook.com/profile.php?id=61589376338630
+        - paragraph [ref=f2e239]: © Copyright 2026 - Stanton Tree Service
+  - text: ▸ ▸

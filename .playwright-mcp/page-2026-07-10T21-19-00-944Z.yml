@@ -1,0 +1,216 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Party Lab Atlanta logo Party Lab Atlanta" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Party Lab Atlanta logo" [ref=e6]
+        - generic [ref=e24]: Party Lab Atlanta
+      - navigation [ref=e25]:
+        - link "Inflatables" [ref=e26] [cursor=pointer]:
+          - /url: /inflatables
+        - link "Service Areas" [ref=e27] [cursor=pointer]:
+          - /url: /service-areas
+        - link "FAQ" [ref=e28] [cursor=pointer]:
+          - /url: /faq
+        - link "Blog" [ref=e29] [cursor=pointer]:
+          - /url: /blog
+        - link "Contact" [ref=e30] [cursor=pointer]:
+          - /url: /contact
+      - link "Book a date" [ref=e32] [cursor=pointer]:
+        - /url: /contact
+  - article [ref=e35]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - link "Fun Blog" [ref=e39] [cursor=pointer]:
+          - /url: /blog
+        - generic [ref=e40]: /
+        - generic [ref=e41]: Cleaning Guide
+      - generic [ref=e42]:
+        - generic [ref=e43]: Cleaning Guide
+        - generic [ref=e44]: ·
+        - generic [ref=e45]: July 2026
+        - generic [ref=e46]: ·
+        - generic [ref=e47]: 7 min read
+      - heading "How to clean a bounce house (the way we clean ours)" [level=1] [ref=e48]
+      - paragraph [ref=e49]: Soap and water, a soft brush, a full dry, then a vinyl-safe sanitizer. The method is simple. The mistake that ruins bounce houses is packing them away damp, and in Georgia humidity that mistake is expensive.
+      - generic [ref=e52]:
+        - strong [ref=e53]: Party Lab Atlanta
+        - text: The studio team
+    - figure [ref=e54]:
+      - 'img "How to clean a bounce house: soap, rinse, dry fully, then sanitize. Never pack it wet." [ref=e55]'
+    - generic [ref=e56]:
+      - paragraph [ref=e57]:
+        - text: Cleaning a
+        - strong [ref=e58]: bounce house
+        - text: is not complicated, but the order matters. Sweep or vacuum out the debris first. Wash the vinyl with warm water, a little dish soap, and a soft brush. Rinse, towel off the puddles, and let it dry completely while it is still inflated. Then go over the surfaces kids touch with a vinyl-safe disinfectant. That is the whole method. The mistake that ruins bounce houses is not a missing product. It is packing the thing away damp.
+      - paragraph [ref=e59]: "We clean inflatables for a living at Party Lab Atlanta, so this guide covers both situations: the backyard unit you own, and what a rental company should be doing before a bounce house ever lands on your grass."
+      - separator [ref=e60]
+      - heading "The five-step routine" [level=2] [ref=e61]
+      - list [ref=e62]:
+        - listitem [ref=e63]:
+          - strong [ref=e64]: Get the junk out first.
+          - text: Deflate nothing yet. Grab a leaf blower or a shop vac and clear out the grass clippings, goldfish crackers, and the sock that always turns up. Soap plus crumbs makes paste.
+        - listitem [ref=e65]:
+          - strong [ref=e66]: Wash with soap and water.
+          - text: A bucket of warm water, a squirt of regular dish soap, and a soft-bristle brush or microfiber cloth. Work top to bottom so the dirty water runs off surfaces you have not cleaned yet.
+        - listitem [ref=e67]:
+          - strong [ref=e68]: Rinse.
+          - text: Garden hose on a normal setting. You are rinsing soap off, not stripping paint.
+        - listitem [ref=e69]:
+          - strong [ref=e70]: Dry it fully, inflated.
+          - text: This is the step that decides whether your bounce house lasts. Towel off the standing water, keep the blower running, and give it a few hours of sun. Every seam and pocket needs to be dry before it gets rolled up.
+        - listitem [ref=e71]:
+          - strong [ref=e72]: Sanitize the touch points.
+          - text: Once dry, wipe the jumping surface, entry ramp, and netting with a disinfectant that is safe for vinyl. Skip anything with bleach.
+      - heading "What to use, and what to keep away from the vinyl" [level=2] [ref=e73]
+      - paragraph [ref=e74]: You do not need a special product for most of this. Dish soap handles dirt. A 50/50 mix of white vinegar and water handles most smells and light mildew. For proper sanitizing, look for a cleaner labeled safe for vinyl or PVC.
+      - paragraph [ref=e75]: "Keep three things away from the material: bleach, which dries out vinyl and eats the stitching over time; pressure washers on strong settings, which can split seams; and anything abrasive, like scouring pads. If a stain will not lift with soap or vinegar, it has usually dyed the vinyl and no product will undo it. Red Georgia clay is famous for this, which is one more reason to keep shoes out."
+      - 'heading "The Georgia problems: mold, pollen, and clay" [level=2] [ref=e76]'
+      - paragraph [ref=e77]: Most cleaning guides are written for a dry climate. Atlanta is not that. Our humidity means a bounce house rolled up with even a little moisture inside will grow mold within a week or two, usually black spots along the seams. If you find them, kill the mold with the vinegar mix, scrub gently, rinse, and sun-dry the unit for a full afternoon. Sunlight is the best mold treatment there is, and it is free.
+      - paragraph [ref=e78]:
+        - text: Then there is pollen season. Every spring, roughly mid-March through April, everything outdoors in metro Atlanta turns yellow, and an inflatable is a giant sticky magnet for it. If your party lands in pollen season, plan on hosing the unit down the morning of, or rent from a company that delivers it clean the day of the party and hauls it away afterward. That is us, for what it is worth, anywhere in our 35-mile zone around
+        - link "Conyers" [ref=e79] [cursor=pointer]:
+          - /url: /bounce-house-rental-conyers-ga
+        - text: .
+      - heading "Water slides are their own animal" [level=2] [ref=e80]
+      - paragraph [ref=e81]: "Everything above applies to an inflatable water slide, with one difference: water gets everywhere, including pockets you cannot see. After the party, disconnect the hose, open the drain caps if the unit has them, tip the slide to walk the trapped water out, and towel the landing pool. Then leave it inflated in the sun until bone dry. That can take a full afternoon in July humidity. If you have ever wondered why a stored slide smells like a pond, this step got skipped."
+      - paragraph [ref=e82]:
+        - text: Our slides, like
+        - link "The Sundae" [ref=e83] [cursor=pointer]:
+          - /url: /water-slide-rental-atlanta
+        - text: ", go back to the shop after every rental and get dried standing up with the blower running before storage. A slide that is packed wet once can be ruined for good."
+      - heading "How we clean ours between rentals" [level=2] [ref=e84]
+      - paragraph [ref=e85]: "Since people ask, here is the actual routine every Party Lab unit gets between parties. Back at the shop, we blow out debris, wash the vinyl, and go over every surface a kid touches with a vinyl-safe disinfectant: jumping floor, ramp, netting, slide lanes. The unit dries fully inflated before it gets rolled, because we have seen what happens to companies that rush that step. Before it goes on the truck, someone checks seams, anchor points, and the blower. What shows up in your yard is clean, dry, and inspected, and if it ever is not, tell us and we will make it right."
+      - paragraph [ref=e86]:
+        - text: "Worth asking any company you rent from: \"When was this unit last cleaned, and what do you sanitize between rentals?\" A good company answers in one sentence. A pause tells you something too. We covered the other questions worth asking in the"
+        - link "bounce house cost guide" [ref=e87] [cursor=pointer]:
+          - /url: /blog/bounce-house-rental-cost-atlanta
+        - text: .
+      - heading "Keeping it clean during the party" [level=2] [ref=e88]
+      - paragraph [ref=e89]: "A few house rules protect the clean unit all afternoon. Socks on, shoes off, and keep a basket at the entrance so this enforces itself. No food, drinks, or gum inside, and park the juice boxes on a table well away from the entrance. Silly string deserves a special mention: it reacts with vinyl and leaves permanent marks, so keep it far from the inflatable. Sunscreen is greasier than it looks too. Let it soak in before the kids climb back on. None of this is about being strict. It is about not paying a cleaning fee."
+      - paragraph [ref=e90]:
+        - text: If you are still choosing a unit, the
+        - link "full lineup is here" [ref=e91] [cursor=pointer]:
+          - /url: /inflatables
+        - text: ", and our"
+        - link "safety checklist" [ref=e92] [cursor=pointer]:
+          - /url: /blog/bounce-house-safety-tips-atlanta
+        - text: covers the supervision side of a good party.
+      - heading "Frequently asked questions" [level=2] [ref=e93]
+      - generic [ref=e94]:
+        - heading "Can you clean a bounce house with bleach?" [level=3] [ref=e95]
+        - paragraph [ref=e96]: Do not. Bleach dries out vinyl, weakens stitching, and voids most manufacturer warranties. Dish soap for dirt, a vinegar and water mix for mildew and smells, and a vinyl-safe disinfectant for sanitizing will handle everything bleach would, without the damage.
+      - generic [ref=e97]:
+        - heading "How do you get mold out of a bounce house?" [level=3] [ref=e98]
+        - paragraph [ref=e99]: "Mix white vinegar and water 50/50, spray the spots, let it sit ten minutes, scrub with a soft brush, rinse, and dry the unit in full sun while inflated. For mold inside seams you cannot reach, repeat over two or three sunny days. Prevention is easier: never store it with any dampness inside."
+      - generic [ref=e100]:
+        - heading "How long does a bounce house take to dry?" [level=3] [ref=e101]
+        - paragraph [ref=e102]: Two to four hours in direct sun with the blower running, longer on a humid Atlanta day. If you towel off the standing water first, you save about an hour. It has to be completely dry before you roll it, seams included.
+      - generic [ref=e103]:
+        - heading "Do rental bounce houses come clean?" [level=3] [ref=e104]
+        - paragraph [ref=e105]: From a real company, yes. Ours are washed, sanitized, and dried between every rental, and you are welcome to ask any company what their routine is before you book. If a unit shows up smelling musty or with visible grime, that is worth a phone call before the party starts.
+      - generic [ref=e106]:
+        - heading "How do you get water out of a bounce house after rain?" [level=3] [ref=e107]
+        - paragraph [ref=e108]: Keep it inflated, open any drain caps, tip or lift sections to walk the water toward an exit, and towel the rest. Then let the sun finish the job before it gets rolled up or stored.
+      - generic [ref=e109]:
+        - heading "How often should a bounce house be cleaned?" [level=3] [ref=e110]
+        - paragraph [ref=e111]: A home unit needs a real wash a few times a season and a debris sweep after every use. A rental unit should be cleaned between every booking. That is the standard we hold ourselves to, and the one you should expect from anyone you hire.
+      - paragraph [ref=e112]:
+        - text: If rain is in the forecast on party day, our
+        - link "rainy day guide" [ref=e113] [cursor=pointer]:
+          - /url: /blog/indoor-bounce-house-rental-atlanta
+        - text: covers the backup plans.
+    - generic [ref=e115]:
+      - heading "Want the clean one, without the cleaning?" [level=2] [ref=e116]
+      - paragraph [ref=e117]:
+        - text: Every Party Lab unit arrives washed, sanitized, and inspected, and we haul it away when the party is over. Tell us your date and your zip and we'll send an all-in quote. Browse
+        - link "the full lineup" [ref=e118] [cursor=pointer]:
+          - /url: /inflatables
+        - text: .
+      - link "Check availability" [ref=e119] [cursor=pointer]:
+        - /url: /contact
+  - contentinfo [ref=e122]:
+    - generic [ref=e123]:
+      - generic [ref=e124]:
+        - generic [ref=e125]:
+          - generic [ref=e126]: Party Lab Atlanta - a small studio, big yards.
+          - generic [ref=e127]: Booking 2026
+        - generic [ref=e129]:
+          - heading "Studio" [level=4] [ref=e130]
+          - list [ref=e131]:
+            - listitem [ref=e132]:
+              - link "Inflatables" [ref=e133] [cursor=pointer]:
+                - /url: /inflatables
+            - listitem [ref=e134]:
+              - link "Party Rental Atlanta" [ref=e135] [cursor=pointer]:
+                - /url: /party-rental-atlanta
+            - listitem [ref=e136]:
+              - link "Water Slide Rentals" [ref=e137] [cursor=pointer]:
+                - /url: /water-slide-rental-atlanta
+            - listitem [ref=e138]:
+              - link "Service Areas" [ref=e139] [cursor=pointer]:
+                - /url: /service-areas
+            - listitem [ref=e140]:
+              - link "FAQ" [ref=e141] [cursor=pointer]:
+                - /url: /faq
+            - listitem [ref=e142]:
+              - link "Blog" [ref=e143] [cursor=pointer]:
+                - /url: /blog
+        - generic [ref=e144]:
+          - heading "Connect" [level=4] [ref=e145]
+          - list [ref=e146]:
+            - listitem [ref=e147]:
+              - link "Contact" [ref=e148] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e149]:
+              - link "Instagram" [ref=e150] [cursor=pointer]:
+                - /url: https://www.instagram.com/thepartylabatlanta
+            - listitem [ref=e151]:
+              - link "Facebook" [ref=e152] [cursor=pointer]:
+                - /url: https://www.facebook.com/profile.php?id=61590528162753
+        - generic [ref=e153]:
+          - heading "Cities We Serve" [level=4] [ref=e154]
+          - list [ref=e155]:
+            - listitem [ref=e156]:
+              - link "Atlanta, GA" [ref=e157] [cursor=pointer]:
+                - /url: /bounce-house-rental-atlanta-ga
+            - listitem [ref=e158]:
+              - link "Marietta, GA" [ref=e159] [cursor=pointer]:
+                - /url: /bounce-house-rental-marietta-ga
+            - listitem [ref=e160]:
+              - link "Alpharetta, GA" [ref=e161] [cursor=pointer]:
+                - /url: /bounce-house-rental-alpharetta-ga
+            - listitem [ref=e162]:
+              - link "Decatur, GA" [ref=e163] [cursor=pointer]:
+                - /url: /bounce-house-rental-decatur-ga
+            - listitem [ref=e164]:
+              - link "Roswell, GA" [ref=e165] [cursor=pointer]:
+                - /url: /bounce-house-rental-roswell-ga
+            - listitem [ref=e166]:
+              - link "Smyrna, GA" [ref=e167] [cursor=pointer]:
+                - /url: /bounce-house-rental-smyrna-ga
+            - listitem [ref=e168]:
+              - link "Kennesaw, GA" [ref=e169] [cursor=pointer]:
+                - /url: /bounce-house-rental-kennesaw-ga
+            - listitem [ref=e170]:
+              - link "Duluth, GA" [ref=e171] [cursor=pointer]:
+                - /url: /bounce-house-rental-duluth-ga
+            - listitem [ref=e172]:
+              - link "See all 32 cities →" [ref=e173] [cursor=pointer]:
+                - /url: /service-areas
+        - generic [ref=e174]:
+          - heading "Location" [level=4] [ref=e175]
+          - list [ref=e176]:
+            - listitem [ref=e177]: Conyers, GA
+            - listitem [ref=e178]:
+              - link "(404) 480-2645" [ref=e179] [cursor=pointer]:
+                - /url: tel:4044802645
+      - generic [ref=e180]:
+        - generic [ref=e181]: © 2026 Party Lab Atlanta LLC
+        - generic [ref=e182]:
+          - link "Party Lab Atlanta on Instagram" [ref=e183] [cursor=pointer]:
+            - /url: https://www.instagram.com/thepartylabatlanta
+          - link "Party Lab Atlanta on Facebook" [ref=e186] [cursor=pointer]:
+            - /url: https://www.facebook.com/profile.php?id=61590528162753
+        - generic [ref=e189]: Designed in Olde Town Conyers
+  - alert [ref=e190]

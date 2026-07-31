@@ -136,6 +136,9 @@
           body: JSON.stringify(payload)
         }).then(function (r) { return r.json(); }).then(function (j) {
           if (j && j.ok) {
+            if (typeof gtag === 'function') {
+              gtag('event', 'conversion', { 'send_to': 'AW-18354338206/5PPaCK624tkcEJ7zg7BE', 'value': 1.0, 'currency': 'USD' });
+            }
             form.innerHTML = '<div style="padding:28px 10px;text-align:center;"><div style="font-size:40px;line-height:1;">✅</div><h3 style="margin:14px 0 8px;color:#1c7a43;">Thank you! Your request has been received.</h3><p style="color:#4a5f53;margin:0;">Our team will review your information and get back to you with a quote shortly.</p></div>';
           } else { throw new Error('send failed'); }
         }).catch(function () {
@@ -149,6 +152,15 @@
           }
           err.textContent = 'Something went wrong. Please call us at (470) 914-3402.';
         });
+      });
+    });
+
+    // Report tap-to-call clicks to Google Ads (call conversions are the primary lead signal).
+    document.querySelectorAll('a[href^="tel:"]').forEach(function (link) {
+      link.addEventListener('click', function () {
+        if (typeof gtag === 'function') {
+          gtag('event', 'conversion', { 'send_to': 'AW-18354338206/olcuCOWf4tkcEJ7zg7BE', 'value': 1.0, 'currency': 'USD' });
+        }
       });
     });
 

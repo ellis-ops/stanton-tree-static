@@ -1,0 +1,267 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner:
+    - generic [ref=e5]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: ""
+        - img "Logo Stanton Tree Service" [ref=e9]
+      - generic [ref=e11]:
+        - navigation "Menu" [ref=e12]:
+          - list [ref=e13]:
+            - listitem [ref=e14]:
+              - link "Home" [ref=e15] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e16]:
+              - link "About us" [ref=e17] [cursor=pointer]:
+                - /url: /#aboutus
+            - listitem [ref=e18]:
+              - link "Our Services" [ref=e19] [cursor=pointer]:
+                - /url: /#services
+              - text: ▸
+            - listitem [ref=e20]:
+              - link "Why Stanton" [ref=e21] [cursor=pointer]:
+                - /url: /#whystanton
+            - listitem [ref=e22]:
+              - link "Service Areas" [ref=e23] [cursor=pointer]:
+                - /url: /service-areas/
+            - listitem [ref=e24]:
+              - link "Blog" [ref=e25] [cursor=pointer]:
+                - /url: /blog/
+        - text: ▸
+      - link "Contact" [ref=e28] [cursor=pointer]:
+        - /url: /contact/
+    - text: ▸ ▸
+  - main [ref=e31]:
+    - heading "Can Trimming Kill Your Pine or Oak Tree?" [level=1] [ref=e33]
+    - generic [ref=e34]:
+      - figure [ref=e35]:
+        - img "Arborist making a proper pruning cut high in a large oak tree in Metro Atlanta" [ref=e36]
+      - paragraph [ref=e37]: If you just had a crew out trimming your pine or oak and now the leaves look off, you might be asking yourself, can trimming a pine tree kill it. The short answer is yes, it can, but it usually takes a bad cut or bad timing to get there. A normal trim done right will not hurt a healthy tree. A rushed job, a wrong-season cut, or someone with a chainsaw and no training can do real damage. Here is what actually causes the trouble, and how to keep your trees healthy after every trim.
+      - paragraph [ref=e38]: We work on trees all over Metro Atlanta, from the pines in Cherokee and Forsyth to the big oaks in older Fulton and Cobb neighborhoods. Georgia red clay grows some tough trees, but even tough trees have limits.
+      - heading "Can Trimming a Pine Tree Kill It?" [level=2] [ref=e39]
+      - paragraph [ref=e40]: Pines are different from most trees homeowners deal with. A pine only grows new needles at the tips of its branches. If you cut back into bare wood with no green needles left, that branch usually will not grow back. Cut too many branches that way and the whole tree can go into decline over a year or two.
+      - paragraph [ref=e41]: Pines also do not like having their tops cut off. Topping a pine to make it shorter is one of the fastest ways to kill it. The tree loses its main growing point, and what grows back is often weak, leggy, and prone to snapping in the next storm.
+      - paragraph [ref=e42]: The safest pine trim is light. Take off dead or crossing branches, thin out crowded limbs, and leave plenty of green growth. If a pine needs serious height reduction, that is usually a sign it should come down instead of being hacked at every year.
+      - heading "Can You Kill an Oak Tree by Trimming It?" [level=2] [ref=e43]
+      - paragraph [ref=e44]: Oaks are tougher than pines in some ways and more sensitive in others. You can take a fair amount of canopy off a healthy oak and it will bounce back fine. What gets oaks in trouble is timing and the size of the cuts.
+      - paragraph [ref=e45]: Big cuts on oaks, especially in warm months, leave open wounds that can attract beetles carrying oak wilt. That disease has wiped out entire stands of oaks in other parts of the country, and it spreads through fresh cuts and root grafts between nearby trees. In Georgia, the safest window for major oak cuts is late fall through winter, when the tree is dormant and beetles are not active.
+      - paragraph [ref=e46]: Flush cuts, where someone saws a branch off right against the trunk instead of leaving the branch collar, are another oak killer. That collar is where the tree seals the wound. Cut past it and the tree cannot close the cut properly, so rot and pests get a way in for years.
+      - heading "Other Trimming Mistakes That Hurt Trees" [level=2] [ref=e47]
+      - paragraph [ref=e48]: Pine and oak have their own quirks, but a few mistakes will stress out almost any tree in a yard.
+      - list [ref=e49]:
+        - listitem [ref=e50]:
+          - strong [ref=e51]: "Taking off too much canopy at once:"
+          - text: A tree makes its food through its leaves. Strip more than about a quarter of the canopy in one visit and the tree can struggle to feed itself, especially during a hot Georgia summer.
+        - listitem [ref=e52]:
+          - strong [ref=e53]: "Trimming at the wrong time of year:"
+          - text: Some species are more vulnerable to disease and pests right after a cut in spring and summer. Our
+          - link "guide to the best time to trim trees in Atlanta" [ref=e54] [cursor=pointer]:
+            - /url: /best-time-to-trim-trees-atlanta-ga/
+          - text: breaks down what to cut and when, month by month.
+        - listitem [ref=e55]:
+          - strong [ref=e56]: "Using dull or dirty tools:"
+          - text: A ragged cut heals slower than a clean one, and tools that touched a sick tree can carry disease to the next one.
+        - listitem [ref=e57]:
+          - strong [ref=e58]: "Over-thinning:"
+          - text: Stripping out too many interior branches lets in more sun and wind than the tree is used to, which can scorch bark and stress limbs that were shaded before.
+        - listitem [ref=e59]:
+          - strong [ref=e60]: "Cutting too close during a drought:"
+          - text: A stressed tree has fewer reserves to recover from pruning wounds. If we have had a dry stretch, we usually wait unless the branch is a safety issue.
+      - paragraph [ref=e61]: None of this means trimming is risky. It means trimming done poorly is risky. A trained crew knows how much to take, where to cut, and when to leave a branch alone.
+      - heading "Signs Your Tree Is Struggling After a Trim" [level=2] [ref=e62]
+      - paragraph [ref=e63]: Most trees handle a good trim without any drama. Still, keep an eye out after any pruning job, whether it's your crew or a neighbor's.
+      - paragraph [ref=e64]: Watch for leaves that wilt or brown within a few weeks, sap or gum oozing heavily from cuts, bark that starts peeling near the wounds, or new growth that looks stunted and thin the following spring. One slow season is usually normal. A tree that keeps declining a year later probably has a real problem, not just trim shock.
+      - paragraph [ref=e65]:
+        - text: If you are not sure whether what you are seeing is normal recovery or a bigger issue, our post on
+        - link "how to tell if your tree is sick" [ref=e66] [cursor=pointer]:
+          - /url: /how-to-tell-if-your-tree-is-sick/
+        - text: walks through the warning signs we look for on service calls.
+      - heading "How to Trim Without Killing Your Tree" [level=2] [ref=e67]
+      - paragraph [ref=e68]: The good news is that almost every one of these problems is avoidable. A few habits go a long way toward keeping a pine or oak healthy for decades.
+      - paragraph [ref=e69]: Trim a little, often, instead of a lot all at once. Stick to the dormant season for major cuts on oaks. Never top a pine or any other tree just to control its height. Leave the branch collar alone when you cut. And if a tree already looks stressed, sick, or storm damaged, get it looked at before adding a trim on top of that.
+      - paragraph [ref=e70]:
+        - text: Our full
+        - link "homeowner's guide to safe, smart tree pruning" [ref=e71] [cursor=pointer]:
+          - /url: /smart-safe-tree-pruning-guide/
+        - text: goes deeper on proper cuts and tools if you want to handle small jobs yourself. For anything involving a ladder, a chainsaw, or a tree taller than your roofline, it is worth having a professional take a look first.
+      - heading "Get Your Trim Done Right the First Time" [level=2] [ref=e72]
+      - paragraph [ref=e73]: Trimming should make a tree healthier, not put it at risk. If you are wondering whether a past trim hurt your pine or oak, or you want the next one done correctly from the start, our crew can take a look and tell you straight what your tree needs.
+      - paragraph [ref=e74]:
+        - text: Call Stanton Tree Service at
+        - link "(470) 914-3402" [ref=e75] [cursor=pointer]:
+          - /url: tel:+14709143402
+        - text: for a free estimate, or check out our
+        - link "tree trimming and pruning services" [ref=e76] [cursor=pointer]:
+          - /url: /tree-trimming-pruning-services-in-metro-atlanta-ga/
+        - text: to see how we handle pines, oaks, and everything else growing in Metro Atlanta yards.
+  - region "Tree services by area" [ref=e77]:
+    - generic [ref=e78]:
+      - heading "Tree services across Metro Atlanta" [level=2] [ref=e79]
+      - paragraph [ref=e80]:
+        - text: Licensed and insured crews serving Atlanta and the surrounding cities. Call
+        - link "(470) 914-3402" [ref=e81] [cursor=pointer]:
+          - /url: tel:+14709143402
+        - text: for a free quote.
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - heading "Tree Removal" [level=3] [ref=e84]
+          - list [ref=e85]:
+            - listitem [ref=e86]:
+              - link "Atlanta" [ref=e87] [cursor=pointer]:
+                - /url: /tree-removal-atlanta-ga/
+            - listitem [ref=e88]:
+              - link "Alpharetta" [ref=e89] [cursor=pointer]:
+                - /url: /tree-removal-alpharetta-ga/
+            - listitem [ref=e90]:
+              - link "Roswell" [ref=e91] [cursor=pointer]:
+                - /url: /tree-removal-roswell-ga/
+            - listitem [ref=e92]:
+              - link "Sandy Springs" [ref=e93] [cursor=pointer]:
+                - /url: /tree-removal-sandy-springs-ga/
+            - listitem [ref=e94]:
+              - link "Kennesaw" [ref=e95] [cursor=pointer]:
+                - /url: /tree-removal-kennesaw-ga/
+            - listitem [ref=e96]:
+              - link "Johns Creek" [ref=e97] [cursor=pointer]:
+                - /url: /tree-removal-johns-creek-ga/
+            - listitem [ref=e98]:
+              - link "Milton" [ref=e99] [cursor=pointer]:
+                - /url: /tree-removal-milton-ga/
+            - listitem [ref=e100]:
+              - link "Marietta" [ref=e101] [cursor=pointer]:
+                - /url: /tree-removal-service-in-marietta-ga/
+        - generic [ref=e102]:
+          - heading "Tree Trimming & Pruning" [level=3] [ref=e103]
+          - list [ref=e104]:
+            - listitem [ref=e105]:
+              - link "Metro Atlanta" [ref=e106] [cursor=pointer]:
+                - /url: /tree-trimming-pruning-services-in-metro-atlanta-ga/
+            - listitem [ref=e107]:
+              - link "Alpharetta" [ref=e108] [cursor=pointer]:
+                - /url: /tree-trimming-alpharetta-ga/
+            - listitem [ref=e109]:
+              - link "Marietta" [ref=e110] [cursor=pointer]:
+                - /url: /tree-trimming-marietta-ga/
+            - listitem [ref=e111]:
+              - link "Roswell" [ref=e112] [cursor=pointer]:
+                - /url: /tree-trimming-roswell-ga/
+            - listitem [ref=e113]:
+              - link "Sandy Springs" [ref=e114] [cursor=pointer]:
+                - /url: /tree-trimming-sandy-springs-ga/
+            - listitem [ref=e115]:
+              - link "Johns Creek" [ref=e116] [cursor=pointer]:
+                - /url: /tree-trimming-johns-creek-ga/
+            - listitem [ref=e117]:
+              - link "Milton" [ref=e118] [cursor=pointer]:
+                - /url: /tree-trimming-milton-ga/
+        - generic [ref=e119]:
+          - heading "Emergency Tree Removal" [level=3] [ref=e120]
+          - list [ref=e121]:
+            - listitem [ref=e122]:
+              - link "Atlanta" [ref=e123] [cursor=pointer]:
+                - /url: /emergency-tree-removal-atlanta/
+            - listitem [ref=e124]:
+              - link "Alpharetta" [ref=e125] [cursor=pointer]:
+                - /url: /emergency-tree-removal-alpharetta-ga/
+            - listitem [ref=e126]:
+              - link "Marietta" [ref=e127] [cursor=pointer]:
+                - /url: /emergency-tree-removal-marietta-ga/
+            - listitem [ref=e128]:
+              - link "Roswell" [ref=e129] [cursor=pointer]:
+                - /url: /emergency-tree-removal-roswell-ga/
+            - listitem [ref=e130]:
+              - link "Sandy Springs" [ref=e131] [cursor=pointer]:
+                - /url: /emergency-tree-removal-sandy-springs-ga/
+            - listitem [ref=e132]:
+              - link "Johns Creek" [ref=e133] [cursor=pointer]:
+                - /url: /emergency-tree-removal-johns-creek-ga/
+            - listitem [ref=e134]:
+              - link "Milton" [ref=e135] [cursor=pointer]:
+                - /url: /emergency-tree-removal-milton-ga/
+            - listitem [ref=e136]:
+              - link "Storm Damage" [ref=e137] [cursor=pointer]:
+                - /url: /emergency-tree-removal-atlanta-storm-damage/
+        - generic [ref=e138]:
+          - heading "Helpful Guides" [level=3] [ref=e139]
+          - list [ref=e140]:
+            - listitem [ref=e141]:
+              - link "Signs a tree needs removal" [ref=e142] [cursor=pointer]:
+                - /url: /signs-you-need-problem-tree-removal/
+            - listitem [ref=e143]:
+              - link "Is your tree sick?" [ref=e144] [cursor=pointer]:
+                - /url: /how-to-tell-if-your-tree-is-sick/
+            - listitem [ref=e145]:
+              - link "Tree removal permits in Atlanta" [ref=e146] [cursor=pointer]:
+                - /url: /do-i-need-a-permit-to-remove-a-tree-in-atlanta/
+            - listitem [ref=e147]:
+              - link "Tree removal cost guide" [ref=e148] [cursor=pointer]:
+                - /url: /how-much-does-tree-removal-cost-in-atlanta-2026-price-guide/
+            - listitem [ref=e149]:
+              - link "How to choose a tree service" [ref=e150] [cursor=pointer]:
+                - /url: /how-to-choose-a-tree-service-company-7-questions-to-ask-before-you-hire/
+            - listitem [ref=e151]:
+              - link "Best time to trim trees" [ref=e152] [cursor=pointer]:
+                - /url: /best-time-to-trim-trees-atlanta-ga/
+  - contentinfo [ref=e153]:
+    - generic [ref=e155]:
+      - generic [ref=e157]:
+        - generic [ref=e158]:
+          - heading "Get in Touch with Stanton Tree Service Today" [level=2] [ref=e160]
+          - paragraph [ref=e162]: Protect your property. Enhance your landscape. Trust your trees to Atlanta’s certified experts.
+        - link "Get an Estimate" [ref=e164] [cursor=pointer]:
+          - /url: /contact/
+      - generic [ref=e168]:
+        - generic [ref=e169]:
+          - link [ref=e172] [cursor=pointer]:
+            - /url: ""
+            - img "Logo Stanton Tree Service" [ref=e173]
+          - generic [ref=e174]:
+            - paragraph [ref=e176]: Company
+            - generic [ref=e177]:
+              - navigation "Menu" [ref=e178]:
+                - list [ref=e179]:
+                  - listitem [ref=e180]:
+                    - link "Home" [ref=e181] [cursor=pointer]:
+                      - /url: /
+                  - listitem [ref=e182]:
+                    - link "About us" [ref=e183] [cursor=pointer]:
+                      - /url: /#aboutus
+                  - listitem [ref=e184]:
+                    - link "Our Services" [ref=e185] [cursor=pointer]:
+                      - /url: /#services
+                    - text: ▸
+                  - listitem [ref=e186]:
+                    - link "Why Stanton" [ref=e187] [cursor=pointer]:
+                      - /url: /#whystanton
+                  - listitem [ref=e188]:
+                    - link "Service Areas" [ref=e189] [cursor=pointer]:
+                      - /url: /service-areas/
+                  - listitem [ref=e190]:
+                    - link "Blog" [ref=e191] [cursor=pointer]:
+                      - /url: /blog/
+              - text: ▸
+          - generic [ref=e192]:
+            - paragraph [ref=e194]: Contact
+            - list [ref=e196]:
+              - listitem [ref=e197]:
+                - generic [ref=e203]: Stanton Tree Service – Your Local ATL Tree Care Specialists
+              - listitem [ref=e204]:
+                - link "(470) 914-3402" [ref=e205] [cursor=pointer]:
+                  - /url: tel:+14709143402
+              - listitem [ref=e210]:
+                - generic [ref=e215]: www.stantontreeservice.com
+              - listitem [ref=e216]:
+                - link "stantontreeservice1@gmail.com" [ref=e217] [cursor=pointer]:
+                  - /url: mailto:stantontreeservice1@gmail.com
+          - generic [ref=e222]:
+            - paragraph [ref=e224]: Connect
+            - list [ref=e226]:
+              - listitem [ref=e227]:
+                - link "Instagram" [ref=e228] [cursor=pointer]:
+                  - /url: https://www.instagram.com/stantontreeservice/
+              - listitem [ref=e232]:
+                - link "Facebook-f" [ref=e233] [cursor=pointer]:
+                  - /url: https://www.facebook.com/profile.php?id=61589376338630
+        - paragraph [ref=e239]: © Copyright 2026 - Stanton Tree Service
+  - text: ▸ ▸

@@ -1,0 +1,297 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner:
+    - generic [ref=e5]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: ""
+        - img "Logo Stanton Tree Service" [ref=e9]
+      - generic [ref=e11]:
+        - navigation "Menu" [ref=e12]:
+          - list [ref=e13]:
+            - listitem [ref=e14]:
+              - link "Home" [ref=e15] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e16]:
+              - link "About us" [ref=e17] [cursor=pointer]:
+                - /url: /#aboutus
+            - listitem [ref=e18]:
+              - link "Our Services" [ref=e19] [cursor=pointer]:
+                - /url: /#services
+              - list [ref=e20]:
+                - listitem [ref=e21]:
+                  - link "Stump Grinding ▸" [ref=e22] [cursor=pointer]:
+                    - /url: /stump-grinding-removal-services/
+                - listitem [ref=e23]:
+                  - link "Tree Removal Service Marietta GA | Stanton Tree Service" [ref=e24] [cursor=pointer]:
+                    - /url: /tree-removal-service-marietta/
+                - listitem [ref=e25]:
+                  - link "Tree Trimming & Pruning" [ref=e26] [cursor=pointer]:
+                    - /url: /tree-trimming-pruning-services-in-metro-atlanta-ga/
+                - listitem [ref=e27]:
+                  - link "Tree Removal Atlanta, GA" [ref=e28] [cursor=pointer]:
+                    - /url: /tree-removal-atlanta-ga/
+                - listitem [ref=e29]:
+                  - link "Tree Removal Alpharetta, GA" [ref=e30] [cursor=pointer]:
+                    - /url: /tree-removal-alpharetta-ga/
+                - listitem [ref=e31]:
+                  - link "Tree Removal Roswell, GA" [ref=e32] [cursor=pointer]:
+                    - /url: /tree-removal-roswell-ga/
+                - listitem [ref=e33]:
+                  - link "Tree Removal Sandy Springs, GA" [ref=e34] [cursor=pointer]:
+                    - /url: /tree-removal-sandy-springs-ga/
+                - listitem [ref=e35]:
+                  - link "Tree Removal Kennesaw, GA" [ref=e36] [cursor=pointer]:
+                    - /url: /tree-removal-kennesaw-ga/
+                - listitem [ref=e37]:
+                  - link "Emergency Tree Removal" [ref=e38] [cursor=pointer]:
+                    - /url: /emergency-tree-removal-atlanta/
+            - listitem [ref=e39]:
+              - link "Why Stanton" [ref=e40] [cursor=pointer]:
+                - /url: /#whystanton
+            - listitem [ref=e41]:
+              - link "Service Areas" [ref=e42] [cursor=pointer]:
+                - /url: /service-areas/
+            - listitem [ref=e43]:
+              - link "Blog" [ref=e44] [cursor=pointer]:
+                - /url: /blog/
+        - text: ▸
+      - link "Contact" [ref=e47] [cursor=pointer]:
+        - /url: /contact/
+    - text: ▸ ▸
+  - main [ref=e50]:
+    - heading "How Long Does Stump Grinding Take in Metro Atlanta?" [level=1] [ref=e52]
+    - generic [ref=e53]:
+      - figure [ref=e54]:
+        - img "Stump grinding machine at work in an Atlanta yard" [ref=e55]
+      - paragraph [ref=e56]: If you just had a tree taken down, you're probably staring at the leftover stump and wondering how long does stump grinding take before your yard looks normal again. The honest answer is that most single stumps are done fast. Many take 15 to 30 minutes once the grinder is in place. But a few things can stretch that out, and this guide walks you through all of it.
+      - paragraph [ref=e57]: We grind stumps all over Metro Atlanta, from Cobb to Gwinnett to Cherokee. Here's what we've learned about the clock.
+      - heading "How long does stump grinding take by stump size?" [level=2] [ref=e58]
+      - paragraph [ref=e59]: Size is the biggest factor. A small stump and a big old oak are two very different jobs.
+      - list [ref=e60]:
+        - listitem [ref=e61]:
+          - strong [ref=e62]: "Small stump (under 12 inches wide):"
+          - text: Roughly 15 to 30 minutes. Think an ornamental tree or a young pine.
+        - listitem [ref=e63]:
+          - strong [ref=e64]: "Medium stump (12 to 24 inches):"
+          - text: Usually 30 to 60 minutes. This covers most backyard trees.
+        - listitem [ref=e65]:
+          - strong [ref=e66]: "Large or old hardwood stump:"
+          - text: Can run 1 to 2 hours. A wide, aged oak with a deep root flare takes real work.
+        - listitem [ref=e67]:
+          - strong [ref=e68]: "A yard full of stumps:"
+          - text: Half a day or more, depending on how many and how spread out they are.
+      - paragraph [ref=e69]: Those are grinding times only. Setup, moving the machine, and cleanup add to the total, which we'll get to.
+      - heading "What slows a stump grinding job down?" [level=2] [ref=e70]
+      - paragraph [ref=e71]: Two stumps that look the same size can take very different amounts of time. Here's what changes the clock.
+      - heading "Wood type and hardness" [level=3] [ref=e72]
+      - paragraph [ref=e73]: Atlanta has a lot of tough oak and stringy pine. Oak is dense and slow to chew through. Pine can be gummy and full of sap that gums up the teeth. Softer, rotted wood grinds quick. Hard, healthy hardwood does not.
+      - heading "Root spread" [level=3] [ref=e74]
+      - paragraph [ref=e75]: Some trees have a tight root ball. Others send big surface roots out in every direction. If you want those roots ground out too, that adds time. A stump with a wide root flare is more work than the top of the stump alone suggests.
+      - heading "How deep we grind" [level=3] [ref=e76]
+      - paragraph [ref=e77]: Standard grinding goes about 4 to 6 inches below the surface, which is fine if you're planting grass. If you want to plant a new tree or pour concrete there, we go deeper, and deeper means longer.
+      - heading "Rocks and Georgia red clay" [level=3] [ref=e78]
+      - paragraph [ref=e79]: Our red clay is packed hard, and it hides rocks. Both dull the grinder teeth fast. When the teeth go dull, the machine works slower and we may stop to swap them. A rocky spot can easily double the time on a stump.
+      - heading "Access for the machine" [level=3] [ref=e80]
+      - paragraph [ref=e81]: This one surprises people. A stump grinder has to physically reach the stump. A narrow gate, a steep slope, a fenced backyard, or soft wet ground all slow us down. If the machine won't fit through the gate, we bring a smaller unit, and smaller means slower.
+      - heading "Does cleanup add to the time?" [level=2] [ref=e82]
+      - paragraph [ref=e83]: Yes, and it's easy to forget. Grinding a stump makes a big pile of chips and soil, often more than folks expect. Hauling that away, or raking it back into the hole, takes extra minutes per stump.
+      - paragraph [ref=e84]: Many people leave the grindings on site to settle and use them as mulch, which saves time. If you want it all hauled off and the spot left clean, tell your crew up front so they can plan for it.
+      - 'heading "Grinding vs full removal: which is faster?" [level=2] [ref=e85]'
+      - paragraph [ref=e86]: Stump grinding is the quick option. Full stump removal, where the whole stump and root ball get dug out of the ground, takes much longer and tears up a lot more of your yard. It often needs heavier equipment too.
+      - paragraph [ref=e87]:
+        - text: Grinding leaves the roots underground to rot naturally over the next few years. Removal pulls everything out now, but you pay for it in time, mess, and cost. If you're weighing the two, our guide on
+        - link "stump grinding vs stump removal" [ref=e88] [cursor=pointer]:
+          - /url: /stump-grinding-vs-stump-removal-which-is-right-for-your-atlanta-yard/
+        - text: breaks down which one fits your yard.
+      - heading "Is stump grinding usually same-day?" [level=2] [ref=e89]
+      - paragraph [ref=e90]: For most homes, yes. A single stump or a small handful is almost always a same-day job. We show up, grind, clean up, and you get your yard back the same afternoon.
+      - paragraph [ref=e91]: A whole yard of stumps, or stumps in tight spots that need a special machine, might get scheduled for their own visit. But the grinding itself is rarely the long part. Getting the crew and machine to your property is usually what sets the date.
+      - heading "How many stumps can you grind in one visit?" [level=2] [ref=e92]
+      - paragraph [ref=e93]: More than you'd think. Since a small stump only takes 15 to 30 minutes, a crew can knock out several in a single visit. On an average day we might handle anywhere from a few stumps to a dozen, depending on their size and how spread out they are across the property.
+      - paragraph [ref=e94]: If the stumps are all in one area, it goes faster. We grind one, roll the machine a few feet, and start the next. When they're scattered across a big lot with gates and slopes between them, the moving-around time adds up.
+      - paragraph [ref=e95]:
+        - text: Stump grinding often pairs with a tree job. If we just removed a tree for you, grinding the fresh stump the same day usually makes the most sense. You can see how that fits into total project pricing in our
+        - link "Atlanta tree removal cost guide" [ref=e96] [cursor=pointer]:
+          - /url: /how-much-does-tree-removal-cost-in-atlanta-2026-price-guide/
+        - text: .
+      - heading "Get a real answer for your yard" [level=2] [ref=e97]
+      - paragraph [ref=e98]: Every stump is a little different, so the best way to know how long does stump grinding take at your place is to have someone look at it. Size, wood type, access, and how many you've got all shape the timeline.
+      - paragraph [ref=e99]:
+        - text: Want a straight answer and a free estimate? Give Stanton Tree Service a call at
+        - link "(470) 914-3402" [ref=e100] [cursor=pointer]:
+          - /url: tel:+14709143402
+        - text: ", or learn more about our"
+        - link "stump grinding and removal services" [ref=e101] [cursor=pointer]:
+          - /url: /stump-grinding-removal-services/
+        - text: . We'll tell you exactly what to expect before we start.
+  - region "Tree services by area" [ref=e102]:
+    - generic [ref=e103]:
+      - heading "Tree services across Metro Atlanta" [level=2] [ref=e104]
+      - paragraph [ref=e105]:
+        - text: Licensed and insured crews serving Atlanta and the surrounding cities. Call
+        - link "(470) 914-3402" [ref=e106] [cursor=pointer]:
+          - /url: tel:+14709143402
+        - text: for a free quote.
+      - generic [ref=e107]:
+        - generic [ref=e108]:
+          - heading "Tree Removal" [level=3] [ref=e109]
+          - list [ref=e110]:
+            - listitem [ref=e111]:
+              - link "Atlanta" [ref=e112] [cursor=pointer]:
+                - /url: /tree-removal-atlanta-ga/
+            - listitem [ref=e113]:
+              - link "Alpharetta" [ref=e114] [cursor=pointer]:
+                - /url: /tree-removal-alpharetta-ga/
+            - listitem [ref=e115]:
+              - link "Roswell" [ref=e116] [cursor=pointer]:
+                - /url: /tree-removal-roswell-ga/
+            - listitem [ref=e117]:
+              - link "Sandy Springs" [ref=e118] [cursor=pointer]:
+                - /url: /tree-removal-sandy-springs-ga/
+            - listitem [ref=e119]:
+              - link "Kennesaw" [ref=e120] [cursor=pointer]:
+                - /url: /tree-removal-kennesaw-ga/
+            - listitem [ref=e121]:
+              - link "Johns Creek" [ref=e122] [cursor=pointer]:
+                - /url: /tree-removal-johns-creek-ga/
+            - listitem [ref=e123]:
+              - link "Milton" [ref=e124] [cursor=pointer]:
+                - /url: /tree-removal-milton-ga/
+            - listitem [ref=e125]:
+              - link "Marietta" [ref=e126] [cursor=pointer]:
+                - /url: /tree-removal-service-in-marietta-ga/
+        - generic [ref=e127]:
+          - heading "Tree Trimming & Pruning" [level=3] [ref=e128]
+          - list [ref=e129]:
+            - listitem [ref=e130]:
+              - link "Metro Atlanta" [ref=e131] [cursor=pointer]:
+                - /url: /tree-trimming-pruning-services-in-metro-atlanta-ga/
+            - listitem [ref=e132]:
+              - link "Alpharetta" [ref=e133] [cursor=pointer]:
+                - /url: /tree-trimming-alpharetta-ga/
+            - listitem [ref=e134]:
+              - link "Marietta" [ref=e135] [cursor=pointer]:
+                - /url: /tree-trimming-marietta-ga/
+            - listitem [ref=e136]:
+              - link "Roswell" [ref=e137] [cursor=pointer]:
+                - /url: /tree-trimming-roswell-ga/
+            - listitem [ref=e138]:
+              - link "Sandy Springs" [ref=e139] [cursor=pointer]:
+                - /url: /tree-trimming-sandy-springs-ga/
+            - listitem [ref=e140]:
+              - link "Johns Creek" [ref=e141] [cursor=pointer]:
+                - /url: /tree-trimming-johns-creek-ga/
+            - listitem [ref=e142]:
+              - link "Milton" [ref=e143] [cursor=pointer]:
+                - /url: /tree-trimming-milton-ga/
+        - generic [ref=e144]:
+          - heading "Emergency Tree Removal" [level=3] [ref=e145]
+          - list [ref=e146]:
+            - listitem [ref=e147]:
+              - link "Atlanta" [ref=e148] [cursor=pointer]:
+                - /url: /emergency-tree-removal-atlanta/
+            - listitem [ref=e149]:
+              - link "Alpharetta" [ref=e150] [cursor=pointer]:
+                - /url: /emergency-tree-removal-alpharetta-ga/
+            - listitem [ref=e151]:
+              - link "Marietta" [ref=e152] [cursor=pointer]:
+                - /url: /emergency-tree-removal-marietta-ga/
+            - listitem [ref=e153]:
+              - link "Roswell" [ref=e154] [cursor=pointer]:
+                - /url: /emergency-tree-removal-roswell-ga/
+            - listitem [ref=e155]:
+              - link "Sandy Springs" [ref=e156] [cursor=pointer]:
+                - /url: /emergency-tree-removal-sandy-springs-ga/
+            - listitem [ref=e157]:
+              - link "Johns Creek" [ref=e158] [cursor=pointer]:
+                - /url: /emergency-tree-removal-johns-creek-ga/
+            - listitem [ref=e159]:
+              - link "Milton" [ref=e160] [cursor=pointer]:
+                - /url: /emergency-tree-removal-milton-ga/
+            - listitem [ref=e161]:
+              - link "Storm Damage" [ref=e162] [cursor=pointer]:
+                - /url: /emergency-tree-removal-atlanta-storm-damage/
+        - generic [ref=e163]:
+          - heading "Helpful Guides" [level=3] [ref=e164]
+          - list [ref=e165]:
+            - listitem [ref=e166]:
+              - link "Signs a tree needs removal" [ref=e167] [cursor=pointer]:
+                - /url: /signs-you-need-problem-tree-removal/
+            - listitem [ref=e168]:
+              - link "Is your tree sick?" [ref=e169] [cursor=pointer]:
+                - /url: /how-to-tell-if-your-tree-is-sick/
+            - listitem [ref=e170]:
+              - link "Tree removal permits in Atlanta" [ref=e171] [cursor=pointer]:
+                - /url: /do-i-need-a-permit-to-remove-a-tree-in-atlanta/
+            - listitem [ref=e172]:
+              - link "Tree removal cost guide" [ref=e173] [cursor=pointer]:
+                - /url: /how-much-does-tree-removal-cost-in-atlanta-2026-price-guide/
+            - listitem [ref=e174]:
+              - link "How to choose a tree service" [ref=e175] [cursor=pointer]:
+                - /url: /how-to-choose-a-tree-service-company-7-questions-to-ask-before-you-hire/
+            - listitem [ref=e176]:
+              - link "Best time to trim trees" [ref=e177] [cursor=pointer]:
+                - /url: /best-time-to-trim-trees-atlanta-ga/
+  - contentinfo [ref=e178]:
+    - generic [ref=e180]:
+      - generic [ref=e182]:
+        - generic [ref=e183]:
+          - heading "Get in Touch with Stanton Tree Service Today" [level=2] [ref=e185]
+          - paragraph [ref=e187]: Protect your property. Enhance your landscape. Trust your trees to Atlanta’s certified experts.
+        - link "Get an Estimate" [ref=e189] [cursor=pointer]:
+          - /url: /contact/
+      - generic [ref=e193]:
+        - generic [ref=e194]:
+          - link [ref=e197] [cursor=pointer]:
+            - /url: ""
+            - img "Logo Stanton Tree Service" [ref=e198]
+          - generic [ref=e199]:
+            - paragraph [ref=e201]: Company
+            - generic [ref=e202]:
+              - navigation "Menu" [ref=e203]:
+                - list [ref=e204]:
+                  - listitem [ref=e205]:
+                    - link "Home" [ref=e206] [cursor=pointer]:
+                      - /url: /
+                  - listitem [ref=e207]:
+                    - link "About us" [ref=e208] [cursor=pointer]:
+                      - /url: /#aboutus
+                  - listitem [ref=e209]:
+                    - link "Our Services" [ref=e210] [cursor=pointer]:
+                      - /url: /#services
+                    - text: ▸
+                  - listitem [ref=e211]:
+                    - link "Why Stanton" [ref=e212] [cursor=pointer]:
+                      - /url: /#whystanton
+                  - listitem [ref=e213]:
+                    - link "Service Areas" [ref=e214] [cursor=pointer]:
+                      - /url: /service-areas/
+                  - listitem [ref=e215]:
+                    - link "Blog" [ref=e216] [cursor=pointer]:
+                      - /url: /blog/
+              - text: ▸
+          - generic [ref=e217]:
+            - paragraph [ref=e219]: Contact
+            - list [ref=e221]:
+              - listitem [ref=e222]:
+                - generic [ref=e228]: Stanton Tree Service – Your Local ATL Tree Care Specialists
+              - listitem [ref=e229]:
+                - link "(470) 914-3402" [ref=e230] [cursor=pointer]:
+                  - /url: tel:+14709143402
+              - listitem [ref=e235]:
+                - generic [ref=e240]: www.stantontreeservice.com
+              - listitem [ref=e241]:
+                - link "stantontreeservice1@gmail.com" [ref=e242] [cursor=pointer]:
+                  - /url: mailto:stantontreeservice1@gmail.com
+          - generic [ref=e247]:
+            - paragraph [ref=e249]: Connect
+            - list [ref=e251]:
+              - listitem [ref=e252]:
+                - link "Instagram" [ref=e253] [cursor=pointer]:
+                  - /url: https://www.instagram.com/stantontreeservice/
+              - listitem [ref=e257]:
+                - link "Facebook-f" [ref=e258] [cursor=pointer]:
+                  - /url: https://www.facebook.com/profile.php?id=61589376338630
+        - paragraph [ref=e264]: © Copyright 2026 - Stanton Tree Service
+  - text: ▸ ▸

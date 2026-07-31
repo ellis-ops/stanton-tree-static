@@ -1,0 +1,413 @@
+- generic [active] [ref=f1e1]:
+  - link "Skip to content" [ref=f1e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner:
+    - generic [ref=f1e5]:
+      - link [ref=f1e8] [cursor=pointer]:
+        - /url: ""
+        - img "Logo Stanton Tree Service" [ref=f1e9]
+      - generic [ref=f1e11]:
+        - navigation "Menu" [ref=f1e12]:
+          - list [ref=f1e13]:
+            - listitem [ref=f1e14]:
+              - link "Home" [ref=f1e15] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f1e16]:
+              - link "About us" [ref=f1e17] [cursor=pointer]:
+                - /url: /#aboutus
+            - listitem [ref=f1e18]:
+              - link "Our Services" [ref=f1e19] [cursor=pointer]:
+                - /url: /#services
+              - text: ▸
+            - listitem [ref=f1e20]:
+              - link "Why Stanton" [ref=f1e21] [cursor=pointer]:
+                - /url: /#whystanton
+            - listitem [ref=f1e22]:
+              - link "Service Areas" [ref=f1e23] [cursor=pointer]:
+                - /url: /service-areas/
+            - listitem [ref=f1e24]:
+              - link "Blog" [ref=f1e25] [cursor=pointer]:
+                - /url: /blog/
+        - text: ▸
+      - link "Contact" [ref=f1e28] [cursor=pointer]:
+        - /url: /contact/
+    - text: ▸ ▸
+  - main [ref=f1e31]:
+    - heading "How Much Does Tree Removal Cost in Atlanta? [2026 Price Guide]" [level=1] [ref=f1e33]
+    - article [ref=f1e39]:
+      - paragraph [ref=f1e40]:
+        - text: Tree removal in Metro Atlanta typically costs
+        - strong [ref=f1e41]: $300 to $1,500 for most residential jobs
+        - text: "-- but large trees near structures, emergency calls, or complex access situations can run $2,000 or more. This guide gives you real price ranges, explains what drives the cost, and helps you know whether the quote you're getting is fair."
+      - img "Professional tree removal crew working safely in Metro Atlanta" [ref=f1e42]
+      - heading "Atlanta Tree Removal Cost at a Glance" [level=2] [ref=f1e43]
+      - table [ref=f1e44]:
+        - rowgroup [ref=f1e45]:
+          - row [ref=f1e46]:
+            - columnheader "Tree Size" [ref=f1e47]
+            - columnheader "Height" [ref=f1e48]
+            - columnheader "Typical Cost Range" [ref=f1e49]
+        - rowgroup [ref=f1e50]:
+          - row [ref=f1e51]:
+            - cell "Small" [ref=f1e52]
+            - cell "Under 25 ft" [ref=f1e53]
+            - cell "$150 - $400" [ref=f1e54]
+          - row [ref=f1e55]:
+            - cell "Medium" [ref=f1e56]
+            - cell "25 - 50 ft" [ref=f1e57]
+            - cell "$400 - $900" [ref=f1e58]
+          - row [ref=f1e59]:
+            - cell "Large" [ref=f1e60]
+            - cell "50 - 80 ft" [ref=f1e61]
+            - cell "$900 - $1,500" [ref=f1e62]
+          - row [ref=f1e63]:
+            - cell "Very Large / Hazard" [ref=f1e64]
+            - cell "80 ft+" [ref=f1e65]
+            - cell "$1,500 - $3,000+" [ref=f1e66]
+      - paragraph [ref=f1e67]:
+        - emphasis [ref=f1e68]: These are typical ranges for Metro Atlanta. Your exact cost depends on the factors below.
+      - heading "What Determines Tree Removal Cost in Atlanta" [level=2] [ref=f1e69]
+      - heading "1. Tree Size" [level=3] [ref=f1e70]
+      - paragraph [ref=f1e71]: Height and trunk diameter are the biggest cost drivers. Bigger trees require more crew time, larger equipment, and more trips to haul debris. A 20-foot ornamental cherry in a front yard is a one-crew-member job. A 70-foot water oak overhanging your roof in Cobb County is a full crew, half-day operation.
+      - heading "2. Location and Access" [level=3] [ref=f1e72]
+      - paragraph [ref=f1e73]: A tree in an open backyard costs less to remove than the same tree wedged between your house, a fence, and a neighbor's property. Tight access means slower, more deliberate rigging -- which means more labor hours. If a bucket truck can't reach the tree, climbers go up instead, adding time and cost.
+      - list [ref=f1e74]:
+        - listitem [ref=f1e75]:
+          - strong [ref=f1e76]: "Easy access (open yard):"
+          - text: Base price applies
+        - listitem [ref=f1e77]:
+          - strong [ref=f1e78]: "Moderate access (fenced yard, gate required):"
+          - text: Add 10-20%
+        - listitem [ref=f1e79]:
+          - strong [ref=f1e80]: "Difficult access (near structure, overhead wires, tight yard):"
+          - text: Add 25-50%
+      - heading "3. Tree Condition" [level=3] [ref=f1e81]
+      - paragraph [ref=f1e82]:
+        - text: Dead and dying trees can actually cost
+        - emphasis [ref=f1e83]: more
+        - text: to remove than healthy ones. A dead tree may be brittle, unpredictable, and structurally compromised. Branches can snap during cutting instead of following controlled descent. That unpredictability requires slower, more careful work.
+      - list [ref=f1e84]:
+        - listitem [ref=f1e85]:
+          - strong [ref=f1e86]: "Healthy tree:"
+          - text: Predictable, cleanest removal
+        - listitem [ref=f1e87]:
+          - strong [ref=f1e88]: "Dead or rotted tree:"
+          - text: Add 10-25% for extra caution
+        - listitem [ref=f1e89]:
+          - strong [ref=f1e90]: "Leaning tree (toward structure):"
+          - text: Add 20-40% for rigging
+      - heading "4. What's Near the Tree" [level=3] [ref=f1e91]
+      - paragraph [ref=f1e92]: Trees near power lines, structures, fences, or HVAC units require more precise work. Every branch has to be rigged and lowered in a controlled way rather than simply dropped. This is slower and more technical -- and that shows up in the price.
+      - heading "5. Number of Trees" [level=3] [ref=f1e93]
+      - paragraph [ref=f1e94]: Most tree companies discount multi-tree jobs. If you have three or more trees coming down in the same visit, you'll typically pay less per tree than if you scheduled them separately. The crew is already there, the equipment is already running -- the economics favor bulk jobs.
+      - heading "6. Time of Year" [level=3] [ref=f1e95]
+      - paragraph [ref=f1e96]: Demand in Metro Atlanta peaks in spring (storm prep) and after major storms. If you're not in a rush, late fall and winter scheduling often comes with shorter wait times and sometimes slightly lower prices. Emergency work -- after a storm takes a tree down on your fence or car -- commands premium rates regardless of season.
+      - 'heading "Additional Services: What They Cost" [level=2] [ref=f1e97]'
+      - table [ref=f1e98]:
+        - rowgroup [ref=f1e99]:
+          - row [ref=f1e100]:
+            - columnheader "Service" [ref=f1e101]
+            - columnheader "Typical Cost" [ref=f1e102]
+            - columnheader "Notes" [ref=f1e103]
+        - rowgroup [ref=f1e104]:
+          - row [ref=f1e105]:
+            - cell "Stump grinding" [ref=f1e106]
+            - cell "$75 - $400" [ref=f1e107]
+            - cell "Based on stump diameter; often discounted if bundled with removal" [ref=f1e108]
+          - row [ref=f1e109]:
+            - cell "Log splitting" [ref=f1e110]
+            - cell "$50 - $150" [ref=f1e111]
+            - cell "If you want firewood; otherwise logs are hauled or chipped" [ref=f1e112]
+          - row [ref=f1e113]:
+            - cell "Debris haul-away" [ref=f1e114]
+            - cell "Included - $200" [ref=f1e115]
+            - cell "Many companies include; some charge by load" [ref=f1e116]
+          - row [ref=f1e117]:
+            - cell "Emergency / same-day" [ref=f1e118]
+            - cell "+50-100%" [ref=f1e119]
+            - cell "After-hours and storm-damage response" [ref=f1e120]
+          - row [ref=f1e121]:
+            - cell "Crane rental (large trees)" [ref=f1e122]
+            - cell "$500 - $1,500" [ref=f1e123]
+            - cell "Only for very large or hazardous trees with no safe drop zone" [ref=f1e124]
+      - heading "Common Atlanta Tree Types and What They Cost to Remove" [level=2] [ref=f1e125]
+      - paragraph [ref=f1e126]: "Tree species affects both crew time and how the wood is handled:"
+      - list [ref=f1e127]:
+        - listitem [ref=f1e128]:
+          - strong [ref=f1e129]: "Loblolly pine:"
+          - text: Common across Cherokee and Forsyth counties. Tall but relatively soft wood -- climbers move through it quickly. Mid-range cost.
+        - listitem [ref=f1e130]:
+          - strong [ref=f1e131]: "Water oak / Willow oak:"
+          - text: Dense hardwood. Requires slower cutting and more pieces. Often adds 15-25% over pine of the same height.
+        - listitem [ref=f1e132]:
+          - strong [ref=f1e133]: "Sweetgum:"
+          - text: Notorious for wide root flares and heavy trunk. Not the most expensive to remove, but stump grinding sweetgum costs more due to aggressive surface roots.
+        - listitem [ref=f1e134]:
+          - strong [ref=f1e135]: "Bradford pear:"
+          - text: Small to medium, relatively easy. Budget end of the range. Common in Cobb and Fulton subdivisions.
+        - listitem [ref=f1e136]:
+          - strong [ref=f1e137]: "Poplar / Tulip poplar:"
+          - text: Can grow very tall very fast. A 70-foot tulip poplar in an Alpharetta backyard can run $900-$1,400.
+      - heading "What a Legitimate Quote Should Include" [level=2] [ref=f1e138]
+      - paragraph [ref=f1e139]: "When you call a tree company for an estimate, a professional quote covers these items:"
+      - list [ref=f1e140]:
+        - listitem [ref=f1e141]: Full tree removal to the ground (or specified stump height)
+        - listitem [ref=f1e142]: All limbs and debris removed from your property
+        - listitem [ref=f1e143]: Final cleanup -- raking, blowing, yard walkthrough
+        - listitem [ref=f1e144]: Whether stump grinding is included or priced separately
+        - listitem [ref=f1e145]:
+          - text: Clear statement of what is
+          - emphasis [ref=f1e146]: not
+          - text: included (log splitting, stump, specific debris handling)
+      - paragraph [ref=f1e147]: If a company gives you a quote over the phone without seeing the tree, treat it as an estimate -- not a firm price. Most reputable companies want eyes on the job before committing to a final number.
+      - 'heading "Red Flags: How to Spot a Bad Quote" [level=2] [ref=f1e148]'
+      - list [ref=f1e149]:
+        - listitem [ref=f1e150]:
+          - strong [ref=f1e151]: Unusually low price with no site visit.
+          - text: This is either a bait-and-switch or a company that doesn't carry insurance.
+        - listitem [ref=f1e152]:
+          - strong [ref=f1e153]: No proof of insurance.
+          - text: Georgia requires tree companies to carry general liability and workers' comp. If they can't provide a certificate on request, walk away. An injury on your property without proper coverage can be your financial problem.
+        - listitem [ref=f1e154]:
+          - strong [ref=f1e155]: Door-to-door solicitation after a storm.
+          - text: Storm chasers show up with out-of-state plates and charge 2-3x normal rates, then disappear before completing the work. Hire local, hire verified.
+        - listitem [ref=f1e156]:
+          - strong [ref=f1e157]: Cash-only, no written contract.
+          - text: Legitimate companies issue written agreements. If there's nothing in writing, you have no protection.
+        - listitem [ref=f1e158]:
+          - strong [ref=f1e159]: No ISA certification or license.
+          - text: Georgia doesn't require arborist licensing, but ISA-certified arborists demonstrate a commitment to professional standards. Ask.
+      - heading "Should You DIY Tree Removal?" [level=2] [ref=f1e160]
+      - paragraph [ref=f1e161]: "For small trees -- a 15-foot ornamental in an open yard, away from any structure -- experienced homeowners sometimes handle removal themselves. For anything over 20 feet, anything leaning toward a structure, anything dead or rotted, or anything near power lines: do not attempt it yourself."
+      - paragraph [ref=f1e162]: The risk isn't just injury. A tree that falls the wrong way onto a fence, vehicle, or neighbor's property creates a liability claim. Tree removal professionals carry insurance specifically for these situations. You don't have that coverage for DIY work, and your homeowner's insurance may not cover self-inflicted tree damage.
+      - heading "How to Get a Fair Price on Tree Removal in Atlanta" [level=2] [ref=f1e163]
+      - list [ref=f1e164]:
+        - listitem [ref=f1e165]:
+          - strong [ref=f1e166]: Get 2-3 quotes.
+          - text: Price variation in tree removal is significant. The highest and lowest quotes are often outliers; the middle tends to reflect fair market value.
+        - listitem [ref=f1e167]:
+          - strong [ref=f1e168]: Ask what's included.
+          - text: Stump, debris, cleanup -- clarify these before comparing quotes.
+        - listitem [ref=f1e169]:
+          - strong [ref=f1e170]: Check insurance.
+          - text: Ask for a certificate of insurance. It's a 30-second request and immediately separates professionals from fly-by-night operations.
+        - listitem [ref=f1e171]:
+          - strong [ref=f1e172]: Bundle services.
+          - text: If you need stump grinding too, bundling it with removal almost always saves money over two separate visits.
+        - listitem [ref=f1e173]:
+          - strong [ref=f1e174]: Avoid post-storm desperation pricing.
+          - text: After a major storm, wait a week if the situation is safe. Emergency demand drives prices up. If there's no active hazard, patience saves money.
+      - heading "Frequently Asked Questions" [level=2] [ref=f1e175]
+      - heading "How much does it cost to remove a large tree near a house in Atlanta?" [level=3] [ref=f1e176]
+      - paragraph [ref=f1e177]: A large tree (50-80 ft) positioned near a structure in Metro Atlanta typically runs $1,200-$2,500 depending on access, species, and how much rigging is required to control the descent. Oak and pine of this size near a structure are the most common scenario -- budget $1,500 as a starting point and adjust based on site specifics.
+      - heading "Is stump removal included in tree removal cost?" [level=3] [ref=f1e178]
+      - paragraph [ref=f1e179]: Not automatically. Most tree companies quote removal to ground level (leaving the stump) and price stump grinding separately. Stump grinding in Metro Atlanta typically runs $75-$400 depending on stump size. If you want the stump gone, ask for a bundled price -- most companies will discount it when done at the same time as removal.
+      - heading "Does homeowner's insurance cover tree removal in Atlanta?" [level=3] [ref=f1e180]
+      - paragraph [ref=f1e181]: It depends on why the tree came down and what it landed on. If a storm drops a tree onto your home, most policies cover removal costs as part of the structural claim. If a healthy tree falls in your yard without hitting a structure, coverage is less likely. If a dead tree -- one you knew was a hazard -- falls and causes damage, claims can be complicated. Call your insurer and document the situation with photos before the crew arrives.
+      - heading "How long does tree removal take?" [level=3] [ref=f1e182]
+      - paragraph [ref=f1e183]: A small tree takes 1-2 hours. A medium tree in a standard yard takes 2-4 hours. Large trees near structures with full rigging can run a full day. Emergency storm work tends to take longer because multiple crews are deployed across multiple jobs, and access to your site may be delayed.
+      - heading "Do I need a permit to remove a tree in Atlanta?" [level=3] [ref=f1e184]
+      - paragraph [ref=f1e185]: It depends on your municipality. The City of Atlanta has a tree ordinance that requires permits for removing trees above a certain diameter on residential property. Cobb County, Cherokee County, and Forsyth County have their own rules. Most tree companies in Metro Atlanta know the permit requirements for their service areas and handle this as part of the job -- ask when you book.
+      - generic [ref=f1e186]:
+        - heading "Get a Free Tree Removal Quote in Metro Atlanta" [level=2] [ref=f1e187]
+        - paragraph [ref=f1e188]: Stanton Tree Service serves Cherokee, Cobb, Forsyth, Fulton, Gwinnett, and Paulding counties. Straightforward pricing, professional crew, no hidden charges on the invoice.
+        - paragraph [ref=f1e189]:
+          - strong [ref=f1e190]: Free quotes. Honest answers. Same-week scheduling in most areas.
+        - paragraph [ref=f1e191]:
+          - text: "Call for a Free Quote:"
+          - strong [ref=f1e192]: (470) 914-3402
+        - link "Get a Free Estimate" [ref=f1e193] [cursor=pointer]:
+          - /url: /contact/
+    - generic [ref=f1e195]:
+      - heading "Leave a Reply" [level=2] [ref=f1e196]
+      - generic [ref=f1e197]:
+        - paragraph [ref=f1e198]:
+          - text: Your email address will not be published.
+          - generic [ref=f1e199]: Required fields are marked *
+        - paragraph [ref=f1e200]:
+          - generic [ref=f1e201]: Comment *
+          - textbox "Comment *" [ref=f1e202]
+        - paragraph [ref=f1e203]:
+          - generic [ref=f1e204]: Name *
+          - textbox "Name *" [ref=f1e205]
+        - paragraph [ref=f1e206]:
+          - generic [ref=f1e207]: Email *
+          - textbox "Email *" [ref=f1e208]
+        - paragraph [ref=f1e209]:
+          - generic [ref=f1e210]: Website
+          - textbox "Website" [ref=f1e211]
+        - paragraph [ref=f1e212]:
+          - checkbox "Save my name, email, and website in this browser for the next time I comment." [ref=f1e213]
+          - generic [ref=f1e214]: Save my name, email, and website in this browser for the next time I comment.
+        - paragraph [ref=f1e215]:
+          - button "Post Comment" [ref=f1e216] [cursor=pointer]
+  - region "Tree services by area" [ref=f1e217]:
+    - generic [ref=f1e218]:
+      - heading "Tree services across Metro Atlanta" [level=2] [ref=f1e219]
+      - paragraph [ref=f1e220]:
+        - text: Licensed and insured crews serving Atlanta and the surrounding cities. Call
+        - link "(470) 914-3402" [ref=f1e221] [cursor=pointer]:
+          - /url: tel:+14709143402
+        - text: for a free quote.
+      - generic [ref=f1e222]:
+        - generic [ref=f1e223]:
+          - heading "Tree Removal" [level=3] [ref=f1e224]
+          - list [ref=f1e225]:
+            - listitem [ref=f1e226]:
+              - link "Atlanta" [ref=f1e227] [cursor=pointer]:
+                - /url: /tree-removal-atlanta-ga/
+            - listitem [ref=f1e228]:
+              - link "Alpharetta" [ref=f1e229] [cursor=pointer]:
+                - /url: /tree-removal-alpharetta-ga/
+            - listitem [ref=f1e230]:
+              - link "Roswell" [ref=f1e231] [cursor=pointer]:
+                - /url: /tree-removal-roswell-ga/
+            - listitem [ref=f1e232]:
+              - link "Sandy Springs" [ref=f1e233] [cursor=pointer]:
+                - /url: /tree-removal-sandy-springs-ga/
+            - listitem [ref=f1e234]:
+              - link "Kennesaw" [ref=f1e235] [cursor=pointer]:
+                - /url: /tree-removal-kennesaw-ga/
+            - listitem [ref=f1e236]:
+              - link "Johns Creek" [ref=f1e237] [cursor=pointer]:
+                - /url: /tree-removal-johns-creek-ga/
+            - listitem [ref=f1e238]:
+              - link "Milton" [ref=f1e239] [cursor=pointer]:
+                - /url: /tree-removal-milton-ga/
+            - listitem [ref=f1e240]:
+              - link "Marietta" [ref=f1e241] [cursor=pointer]:
+                - /url: /tree-removal-service-in-marietta-ga/
+        - generic [ref=f1e242]:
+          - heading "Tree Trimming & Pruning" [level=3] [ref=f1e243]
+          - list [ref=f1e244]:
+            - listitem [ref=f1e245]:
+              - link "Metro Atlanta" [ref=f1e246] [cursor=pointer]:
+                - /url: /tree-trimming-pruning-services-in-metro-atlanta-ga/
+            - listitem [ref=f1e247]:
+              - link "Alpharetta" [ref=f1e248] [cursor=pointer]:
+                - /url: /tree-trimming-alpharetta-ga/
+            - listitem [ref=f1e249]:
+              - link "Marietta" [ref=f1e250] [cursor=pointer]:
+                - /url: /tree-trimming-marietta-ga/
+            - listitem [ref=f1e251]:
+              - link "Roswell" [ref=f1e252] [cursor=pointer]:
+                - /url: /tree-trimming-roswell-ga/
+            - listitem [ref=f1e253]:
+              - link "Sandy Springs" [ref=f1e254] [cursor=pointer]:
+                - /url: /tree-trimming-sandy-springs-ga/
+            - listitem [ref=f1e255]:
+              - link "Johns Creek" [ref=f1e256] [cursor=pointer]:
+                - /url: /tree-trimming-johns-creek-ga/
+            - listitem [ref=f1e257]:
+              - link "Milton" [ref=f1e258] [cursor=pointer]:
+                - /url: /tree-trimming-milton-ga/
+        - generic [ref=f1e259]:
+          - heading "Emergency Tree Removal" [level=3] [ref=f1e260]
+          - list [ref=f1e261]:
+            - listitem [ref=f1e262]:
+              - link "Atlanta" [ref=f1e263] [cursor=pointer]:
+                - /url: /emergency-tree-removal-atlanta/
+            - listitem [ref=f1e264]:
+              - link "Alpharetta" [ref=f1e265] [cursor=pointer]:
+                - /url: /emergency-tree-removal-alpharetta-ga/
+            - listitem [ref=f1e266]:
+              - link "Marietta" [ref=f1e267] [cursor=pointer]:
+                - /url: /emergency-tree-removal-marietta-ga/
+            - listitem [ref=f1e268]:
+              - link "Roswell" [ref=f1e269] [cursor=pointer]:
+                - /url: /emergency-tree-removal-roswell-ga/
+            - listitem [ref=f1e270]:
+              - link "Sandy Springs" [ref=f1e271] [cursor=pointer]:
+                - /url: /emergency-tree-removal-sandy-springs-ga/
+            - listitem [ref=f1e272]:
+              - link "Johns Creek" [ref=f1e273] [cursor=pointer]:
+                - /url: /emergency-tree-removal-johns-creek-ga/
+            - listitem [ref=f1e274]:
+              - link "Milton" [ref=f1e275] [cursor=pointer]:
+                - /url: /emergency-tree-removal-milton-ga/
+            - listitem [ref=f1e276]:
+              - link "Storm Damage" [ref=f1e277] [cursor=pointer]:
+                - /url: /emergency-tree-removal-atlanta-storm-damage/
+        - generic [ref=f1e278]:
+          - heading "Helpful Guides" [level=3] [ref=f1e279]
+          - list [ref=f1e280]:
+            - listitem [ref=f1e281]:
+              - link "Signs a tree needs removal" [ref=f1e282] [cursor=pointer]:
+                - /url: /signs-you-need-problem-tree-removal/
+            - listitem [ref=f1e283]:
+              - link "Is your tree sick?" [ref=f1e284] [cursor=pointer]:
+                - /url: /how-to-tell-if-your-tree-is-sick/
+            - listitem [ref=f1e285]:
+              - link "Tree removal permits in Atlanta" [ref=f1e286] [cursor=pointer]:
+                - /url: /do-i-need-a-permit-to-remove-a-tree-in-atlanta/
+            - listitem [ref=f1e287]:
+              - link "Tree removal cost guide" [ref=f1e288] [cursor=pointer]:
+                - /url: /how-much-does-tree-removal-cost-in-atlanta-2026-price-guide/
+            - listitem [ref=f1e289]:
+              - link "How to choose a tree service" [ref=f1e290] [cursor=pointer]:
+                - /url: /how-to-choose-a-tree-service-company-7-questions-to-ask-before-you-hire/
+            - listitem [ref=f1e291]:
+              - link "Best time to trim trees" [ref=f1e292] [cursor=pointer]:
+                - /url: /best-time-to-trim-trees-atlanta-ga/
+  - contentinfo [ref=f1e293]:
+    - generic [ref=f1e295]:
+      - generic [ref=f1e297]:
+        - generic [ref=f1e298]:
+          - heading "Get in Touch with Stanton Tree Service Today" [level=2] [ref=f1e300]
+          - paragraph [ref=f1e302]: Protect your property. Enhance your landscape. Trust your trees to Atlanta’s certified experts.
+        - link "Get an Estimate" [ref=f1e304] [cursor=pointer]:
+          - /url: /contact/
+      - generic [ref=f1e308]:
+        - generic [ref=f1e309]:
+          - link [ref=f1e312] [cursor=pointer]:
+            - /url: ""
+            - img "Logo Stanton Tree Service" [ref=f1e313]
+          - generic [ref=f1e314]:
+            - paragraph [ref=f1e316]: Company
+            - generic [ref=f1e317]:
+              - navigation "Menu" [ref=f1e318]:
+                - list [ref=f1e319]:
+                  - listitem [ref=f1e320]:
+                    - link "Home" [ref=f1e321] [cursor=pointer]:
+                      - /url: /
+                  - listitem [ref=f1e322]:
+                    - link "About us" [ref=f1e323] [cursor=pointer]:
+                      - /url: /#aboutus
+                  - listitem [ref=f1e324]:
+                    - link "Our Services" [ref=f1e325] [cursor=pointer]:
+                      - /url: /#services
+                    - text: ▸
+                  - listitem [ref=f1e326]:
+                    - link "Why Stanton" [ref=f1e327] [cursor=pointer]:
+                      - /url: /#whystanton
+                  - listitem [ref=f1e328]:
+                    - link "Service Areas" [ref=f1e329] [cursor=pointer]:
+                      - /url: /service-areas/
+                  - listitem [ref=f1e330]:
+                    - link "Blog" [ref=f1e331] [cursor=pointer]:
+                      - /url: /blog/
+              - text: ▸
+          - generic [ref=f1e332]:
+            - paragraph [ref=f1e334]: Contact
+            - list [ref=f1e336]:
+              - listitem [ref=f1e337]:
+                - generic [ref=f1e343]: Stanton Tree Service – Your Local ATL Tree Care Specialists
+              - listitem [ref=f1e344]:
+                - link "(470) 914-3402" [ref=f1e345] [cursor=pointer]:
+                  - /url: tel:+14709143402
+              - listitem [ref=f1e350]:
+                - generic [ref=f1e355]: www.stantontreeservice.com
+              - listitem [ref=f1e356]:
+                - link "stantontreeservice1@gmail.com" [ref=f1e357] [cursor=pointer]:
+                  - /url: mailto:stantontreeservice1@gmail.com
+          - generic [ref=f1e362]:
+            - paragraph [ref=f1e364]: Connect
+            - list [ref=f1e366]:
+              - listitem [ref=f1e367]:
+                - link "Instagram" [ref=f1e368] [cursor=pointer]:
+                  - /url: https://www.instagram.com/stantontreeservice/
+              - listitem [ref=f1e372]:
+                - link "Facebook-f" [ref=f1e373] [cursor=pointer]:
+                  - /url: https://www.facebook.com/profile.php?id=61589376338630
+        - paragraph [ref=f1e379]: © Copyright 2026 - Stanton Tree Service
+  - text: ▸ ▸

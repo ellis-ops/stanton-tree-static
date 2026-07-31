@@ -1,0 +1,145 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner:
+    - generic [ref=e5]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: ""
+        - img "Logo Stanton Tree Service" [ref=e9]
+      - generic [ref=e11]:
+        - navigation "Menu" [ref=e12]:
+          - list [ref=e13]:
+            - listitem [ref=e14]:
+              - link "Home" [ref=e15] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e16]:
+              - link "About us" [ref=e17] [cursor=pointer]:
+                - /url: /#aboutus
+            - listitem [ref=e18]:
+              - link "Our Services" [ref=e19] [cursor=pointer]:
+                - /url: /#services
+              - text: ▸
+            - listitem [ref=e20]:
+              - link "Why Stanton" [ref=e21] [cursor=pointer]:
+                - /url: /#whystanton
+            - listitem [ref=e22]:
+              - link "Service Areas" [ref=e23] [cursor=pointer]:
+                - /url: /service-areas/
+            - listitem [ref=e24]:
+              - link "Blog" [ref=e25] [cursor=pointer]:
+                - /url: /blog/
+        - text: ▸
+      - link "Contact" [ref=e28] [cursor=pointer]:
+        - /url: /contact/
+    - text: ▸ ▸
+  - main [ref=e31]:
+    - heading "Tree Roots Cracking Your Driveway or Foundation? What Atlanta Homeowners Can Do" [level=1] [ref=e33]
+    - generic [ref=e34]:
+      - figure [ref=e35]:
+        - img "Tree roots cracking a driveway and foundation in Atlanta. Stanton Tree Service" [ref=e36]
+      - paragraph [ref=e37]: Georgia's big shade trees are great until their roots start lifting your driveway or pushing on your foundation. If you have noticed new cracks in the concrete, a slab that is heaving up at one edge, or roots creeping toward the house, you are not imagining it. Tree roots cause real damage to Atlanta homes, and the right fix depends a lot on how far it has gone. Here is what is actually happening underground and what you can do about it.
+      - heading "Why tree roots wreck driveways and foundations here" [level=2] [ref=e38]
+      - paragraph [ref=e39]: Most people picture roots as a mirror image of the branches, digging straight down. They do not. Tree roots are shallow and wide. Most of them sit in the top foot or so of soil and spread out well past the edge of the branches, hunting for water.
+      - paragraph [ref=e40]: "In Metro Atlanta, our red clay makes it worse. Georgia clay swells when it is wet and shrinks when it dries out. Roots follow that moisture, and as the clay moves, so does everything sitting on top of it: your driveway, your walkway, your patio, and sometimes the slab or footing under your house. A thirsty water oak or pine can push roots 30 or 40 feet out without much trouble."
+      - heading "Signs the roots are the problem" [level=2] [ref=e41]
+      - list [ref=e42]:
+        - listitem [ref=e43]: New cracks in a driveway or walkway that line up with a nearby tree
+        - listitem [ref=e44]: A section of concrete lifting or tilting up at one edge
+        - listitem [ref=e45]: Cracks in a foundation wall, or doors and windows that suddenly stick
+        - listitem [ref=e46]: Raised ridges in the lawn running from the tree toward the house
+        - listitem [ref=e47]: A patio slab that is no longer level
+      - paragraph [ref=e48]: Not every crack is a root. Concrete cracks on its own as it ages, and clay moves with or without a tree nearby. But when the damage points straight back toward a big tree, roots are usually part of the story.
+      - heading "What you can and cannot safely do yourself" [level=2] [ref=e49]
+      - paragraph [ref=e50]: "The internet is full of advice about chopping any root that is in your way. Please do not. On a mature tree, the big roots near the trunk are doing two jobs at once: feeding the tree and holding it upright. Cut the wrong one and you can either kill the tree or make it unstable enough to fall, which is a far bigger problem than a cracked driveway."
+      - paragraph [ref=e51]: "A few things that are generally safe:"
+      - list [ref=e52]:
+        - listitem [ref=e53]: Small surface roots far from the trunk can sometimes be pruned
+        - listitem [ref=e54]: A root barrier installed between the tree and the structure can steer future growth away
+        - listitem [ref=e55]: Watering during dry spells keeps the clay from shrinking as much, which cuts down on movement
+      - paragraph [ref=e56]: Where it gets risky is any root more than an inch or two thick, anything close to the trunk, or anything helping hold up a leaning tree. That is where you want someone who can tell you what is load-bearing and what is not before a shovel comes out.
+      - heading "When the tree itself has to go" [level=2] [ref=e57]
+      - paragraph [ref=e58]: Sometimes the tree is just in the wrong spot. A large tree planted three feet from the driveway or right against the foundation will keep causing problems no matter how many roots you trim. In those cases, taking the tree out and grinding the stump is often cheaper over the long run than repouring concrete every few years.
+      - paragraph [ref=e59]:
+        - text: "If it comes to that, we handle the whole job:"
+        - link "removing the tree" [ref=e60] [cursor=pointer]:
+          - /url: /tree-removal-atlanta-ga/
+        - text: and
+        - link "grinding the stump and surface roots" [ref=e61] [cursor=pointer]:
+          - /url: /stump-grinding-removal-services/
+        - text: so you can repair or repour the driveway on a clean base. Grinding matters here, because a stump left in the ground keeps its root system and can keep heaving concrete for years.
+      - heading "The order we would tackle it in" [level=2] [ref=e62]
+      - paragraph [ref=e63]: "If this is happening at your place, here is the sane order to work through it:"
+      - list [ref=e64]:
+        - listitem [ref=e65]: Figure out which tree is doing it and how close the roots are to the structure
+        - listitem [ref=e66]: Decide whether the tree is worth keeping. A healthy, well-placed oak usually is. A badly placed pine often is not
+        - listitem [ref=e67]: If you are keeping it, look at root barriers and careful pruning done by someone who will not destabilize the tree
+        - listitem [ref=e68]: If it is coming out, take the tree and grind the stump so the roots stop growing, then fix the concrete
+      - paragraph [ref=e69]: Getting that order right saves money. Repairing the driveway before you deal with the roots just means repairing it again next year.
+      - heading "Get someone to look before it gets worse" [level=2] [ref=e70]
+      - paragraph [ref=e71]:
+        - text: Root damage is a lot cheaper to deal with early. A root barrier or a well-placed removal now beats a cracked foundation later. If tree roots are showing up in your driveway, patio, or foundation anywhere around Metro Atlanta, call Stanton Tree Service at
+        - link "(470) 914-3402" [ref=e72] [cursor=pointer]:
+          - /url: tel:+14709143402
+        - text: . We will come out, figure out which tree is causing it, and give you honest options and a free estimate.
+  - contentinfo [ref=e73]:
+    - generic [ref=e75]:
+      - generic [ref=e77]:
+        - generic [ref=e78]:
+          - heading "Get in Touch with Stanton Tree Service Today" [level=2] [ref=e80]
+          - paragraph [ref=e82]: Protect your property. Enhance your landscape. Trust your trees to Atlanta’s certified experts.
+        - link "Get an Estimate" [ref=e84] [cursor=pointer]:
+          - /url: /contact/
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - link [ref=e92] [cursor=pointer]:
+            - /url: ""
+            - img "Logo Stanton Tree Service" [ref=e93]
+          - generic [ref=e94]:
+            - paragraph [ref=e96]: Company
+            - generic [ref=e97]:
+              - navigation "Menu" [ref=e98]:
+                - list [ref=e99]:
+                  - listitem [ref=e100]:
+                    - link "Home" [ref=e101] [cursor=pointer]:
+                      - /url: /
+                  - listitem [ref=e102]:
+                    - link "About us" [ref=e103] [cursor=pointer]:
+                      - /url: /#aboutus
+                  - listitem [ref=e104]:
+                    - link "Our Services" [ref=e105] [cursor=pointer]:
+                      - /url: /#services
+                    - text: ▸
+                  - listitem [ref=e106]:
+                    - link "Why Stanton" [ref=e107] [cursor=pointer]:
+                      - /url: /#whystanton
+                  - listitem [ref=e108]:
+                    - link "Service Areas" [ref=e109] [cursor=pointer]:
+                      - /url: /service-areas/
+                  - listitem [ref=e110]:
+                    - link "Blog" [ref=e111] [cursor=pointer]:
+                      - /url: /blog/
+              - text: ▸
+          - generic [ref=e112]:
+            - paragraph [ref=e114]: Contact
+            - list [ref=e116]:
+              - listitem [ref=e117]:
+                - generic [ref=e123]: Stanton Tree Service – Your Local ATL Tree Care Specialists
+              - listitem [ref=e124]:
+                - link "(470) 914-3402" [ref=e125] [cursor=pointer]:
+                  - /url: tel:+14709143402
+              - listitem [ref=e130]:
+                - generic [ref=e135]: www.stantontreeservice.com
+              - listitem [ref=e136]:
+                - link "stantontreeservice1@gmail.com" [ref=e137] [cursor=pointer]:
+                  - /url: mailto:stantontreeservice1@gmail.com
+          - generic [ref=e142]:
+            - paragraph [ref=e144]: Connect
+            - list [ref=e146]:
+              - listitem [ref=e147]:
+                - link "Instagram" [ref=e148] [cursor=pointer]:
+                  - /url: https://www.instagram.com/stantontreeservice/
+              - listitem [ref=e152]:
+                - link "Facebook-f" [ref=e153] [cursor=pointer]:
+                  - /url: https://www.facebook.com/profile.php?id=61589376338630
+        - paragraph [ref=e159]: © Copyright 2026 - Stanton Tree Service
+  - text: ▸ ▸
