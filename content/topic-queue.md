@@ -70,6 +70,19 @@ how a position 10.7 becomes a #3 and a position 18 becomes page 1.
    sell today (crane removals, stump grinder rentals, fruit tree pruning) as long as it is a
    genuinely helpful guide that never claims Stanton offers that exact service. The service
    pages handle the offer; the post links to them.
+9. **Tree removal comes first (Stefan, 9 Nov 2026: "focus on keywords that contain tree removal;
+   tree removal is making more money than stump grinding").** The queue order below was rebuilt
+   that day so the emergency and storm entries (A) and the tree removal cost and hiring entries
+   (C) publish first and the stump entries (B) last. On top of that, every post, whatever its
+   cluster, spends its one service-page link (rule 2) on a TREE REMOVAL page: `/tree-removal-atlanta-ga/`
+   by default, or the city tree removal page when the post names a city
+   (`/tree-removal-roswell-ga/`, `/tree-removal-milton-ga/`, `/tree-removal-alpharetta-ga/`,
+   `/tree-removal-sandy-springs-ga/`, `/tree-removal-johns-creek-ga/`, `/tree-removal-kennesaw-ga/`,
+   `/tree-removal-service-in-marietta-ga/`), with an anchor from this family, rotated across
+   posts: "tree removal in Atlanta", "Atlanta tree removal", "tree removal service in Roswell",
+   "professional tree removal", "a licensed tree removal crew". Stump and trimming posts keep
+   their own pillar link; the tree removal link is in addition to it. Rule 1 still stands:
+   "tree removal" plus a city name never goes in a post's title or H1, it is anchor text only.
 
 ## Humanizer pass: the checklist every post must clear
 
@@ -115,22 +128,13 @@ this read as AI generated?", list the remaining tells, fix them, then publish th
 
 ## Queue
 
-In publishing order. The order alternates clusters on purpose so no cluster looks like a dump.
-Cluster letters: A emergency and storm, B stumps, C tree removal cost and hiring, D trimming and
-pruning, E Georgia tree species and tree health.
+In publishing order. **Reordered 9 Nov 2026 (Stefan): tree removal first.** The emergency and
+storm entries (A) and the tree removal cost and hiring entries (C) now lead, the stump entries (B)
+close the list, and one entry was added (permits, now entry 7). Clusters still alternate so no
+cluster looks like a dump. Cluster letters: A emergency and storm, B stumps, C tree removal cost
+and hiring, D trimming and pruning, E Georgia tree species and tree health.
 
-**1. How to get rid of tree stumps: 6 ways ranked by cost and time** | 30,000/mo (`stump removal`) | KD 1
-Root: `how to get rid of tree stumps` (Parent Topic of `stump removal` 30,000/mo KD 1, `tree
-stump removal` 16,000/mo KD 6, `easy tree stump removal` 1,600/mo KD 0, `how to remove a tree
-stump` 1,300/mo KD 1, `how to remove tree stump` 1,200/mo KD 1).
-Cluster B. The biggest keyword in this file. Grinding, digging, chemical rotting, burning (not in
-most metro counties), Epsom salt, leaving it: cost, time and what it leaves behind for each, with
-Georgia red clay and pine taproots as the local angle. **Pillar link:**
-`/stump-grinding-removal-services/` (anchor "stump grinding in Atlanta"). **Also link:**
-`/stump-grinding-cost-atlanta/`, `/stump-grinding-vs-stump-removal-which-is-right-for-your-atlanta-yard/`,
-`/what-to-do-after-stump-grinding/`, `/stump-grinding-roswell-ga/`.
-
-**2. Hazardous tree removal: what makes a tree hazardous, and who decides** | 2,300/mo | KD 0
+**1. Hazardous tree removal: what makes a tree hazardous, and who decides** | 2,300/mo | KD 0
 Root: `hazardous tree removal`. Cluster: `dangerous tree removal` (1,000/mo, KD 0), `dead tree
 removal` (1,200/mo, KD 0), `remove dead tree` (600/mo, KD 10), what counts as a hazard tree.
 Cluster A. The 7 defects an arborist looks for (lean, cavity, root plate, deadwood over a target,
@@ -139,7 +143,7 @@ link:** `/emergency-tree-removal-atlanta/` (anchor "emergency tree removal in At
 link:** `/signs-you-need-problem-tree-removal/`, `/is-a-leaning-tree-dangerous/`,
 `/is-my-tree-dead-or-dying/`, `/does-homeowners-insurance-cover-tree-removal/`.
 
-**3. Tree removal cost calculator: estimate your Atlanta price by height, trunk and access** | 3,100/mo | KD 22
+**2. Tree removal cost calculator: estimate your Atlanta price by height, trunk and access** | 3,100/mo | KD 22
 Root: `tree removal cost calculator`. Cluster: `tree removal rates` (1,000/mo, KD 0), `how much
 does tree removal cost` (1,200/mo, KD 2), `cost of tree removal` (1,700/mo, KD 2), "how much to
 take down a 30 ft tree", "how much does it cost to cut down a 40 ft tree" (both People Also Ask).
@@ -151,36 +155,17 @@ removal cost in Atlanta"). **Also link:** `/tree-removal-atlanta-ga/`,
 `/how-to-choose-a-tree-service-company-7-questions-to-ask-before-you-hire/`,
 `/stump-grinding-cost-atlanta/`.
 
-**4. Why do Bradford pear trees smell? And why Georgia wants them gone** | 3,100/mo | KD 2
-Root: `bradford pear tree smell`. Cluster: why do bradford pears stink, bradford pear bloom
-smell, when do bradford pears bloom in Georgia, Georgia Bradford pear bounty program.
-Cluster E. The trimethylamine answer in plain words, the March bloom in metro Atlanta, the
-state's replacement bounty, and the honest case for taking one down before it splits. **Pillar
-link:** `/oak-tree-diseases-georgia/` (anchor "oak tree diseases in Georgia", in a section on
-what to plant instead). **Also link:** `/bradford-pear-tree-problems/`,
-`/best-trees-to-plant-in-georgia/`, `/tree-removal-atlanta-ga/`.
+**3. A tree fell on my house: what to do in the first hour, day and week** | 600/mo | KD 0
+Root: `tree fell on house`. Cluster: `tree fell on car` (450/mo, KD 0), tree fell on roof who
+to call first, do I call insurance or a tree company first, tarping a roof after a tree falls.
+Cluster A. Safety first (gas, power, stay out), photos before anything moves, the order of calls
+(insurer, then an emergency tree crew, then a roofer), what the claim covers, and how an
+insurance direct-bill works. **Pillar link:** `/emergency-tree-removal-atlanta/` (anchor
+"24/7 emergency tree removal"). **Also link:** `/does-homeowners-insurance-cover-tree-removal/`,
+`/neighbors-dead-tree-fell-on-my-house/`, `/tree-fell-on-power-lines-who-is-responsible/`,
+`/emergency-tree-removal-atlanta-storm-damage/`.
 
-**5. Oak tree trimming in Georgia: when to cut, how much, and the oak wilt rule** | 2,100/mo | KD 0
-Root: `oak tree trimming`. Cluster: `oak tree pruning` (900/mo, KD 0), trimming oak trees, when
-to trim oak trees in Georgia, how much to cut off an oak.
-Cluster D. Dormant-season timing (December to February here), the 25 percent rule, why you never
-prune oaks in spring and early summer (oak wilt beetles), water oak versus white oak differences.
-**Pillar link:** `/tree-trimming-pruning-services-in-metro-atlanta-ga/` (anchor "tree trimming
-and pruning in Atlanta"). **Also link:** `/best-time-to-trim-trees-atlanta-ga/`,
-`/oak-tree-diseases-georgia/`, `/tree-topping-why-its-bad-for-your-trees/`,
-`/tree-trimming-cost-atlanta/`.
-
-**6. Does stump killer work? Chemicals, Epsom salt, and when grinding is faster** | 2,800/mo | KD 0
-Root: `how to kill a tree stump`. Cluster: `tree stump killer` (2,700/mo, KD 0), `natural stump
-removal` (1,400/mo, KD 4), `natural tree stump removal` (700/mo, KD 2), Epsom salt tree stump,
-how long does stump killer take.
-Cluster B. Honest timelines (months to years for chemicals, one afternoon for grinding), the
-sucker problem with sweet gum and Bradford pear stumps, cost per method. **Pillar link:**
-`/stump-grinding-removal-services/` (anchor "professional stump grinding"). **Also link:**
-`/how-long-does-stump-grinding-take/`, `/stump-grinding-cost-atlanta/`, entry 1 once it is
-published.
-
-**7. How to get a tree removal quote in Atlanta, and what has to be on it** | 2,300/mo | KD 5
+**4. How to get a tree removal quote in Atlanta, and what has to be on it** | 2,300/mo | KD 5
 Root: `tree removal quote`. Cluster: `tree removal estimate`, free tree removal estimate, how
 many quotes should I get for tree removal, why tree removal quotes vary so much.
 Cluster C. The 8 lines a real written quote has (scope, each tree, stump line, haul line,
@@ -191,74 +176,7 @@ in Atlanta"). **Also link:**
 `/how-to-choose-a-tree-service-company-7-questions-to-ask-before-you-hire/`,
 `/certified-arborist-vs-tree-service-company-atlanta/`, `/contact/`.
 
-**8. Sweet gum tree: how to identify one, why people remove them, and what it costs** | 12,000/mo | KD 4
-Root: `sweet gum tree`. Cluster: `sweet gum` (2,400/mo, KD 7), sweetgum tree identification,
-sweet gum tree roots, sweet gum tree lifespan, are sweet gum trees bad.
-Cluster E. The species post the existing "sweet gum balls" post is not: star leaves, corky
-twigs, 60 to 100 ft height, shallow surface roots that heave sidewalks in older Atlanta
-neighborhoods, and the removal cost band for a mature one. **Pillar link:**
-`/oak-tree-diseases-georgia/` (anchor "common Georgia tree problems"). **Also link:**
-`/sweet-gum-tree-balls/`, `/tree-roots-above-ground-what-to-do/`,
-`/how-much-does-tree-removal-cost-in-atlanta-2026-price-guide/`.
-
-**9. A tree fell on my house: what to do in the first hour, day and week** | 600/mo | KD 0
-Root: `tree fell on house`. Cluster: `tree fell on car` (450/mo, KD 0), tree fell on roof who
-to call first, do I call insurance or a tree company first, tarping a roof after a tree falls.
-Cluster A. Safety first (gas, power, stay out), photos before anything moves, the order of calls
-(insurer, then an emergency tree crew, then a roofer), what the claim covers, and how an
-insurance direct-bill works. **Pillar link:** `/emergency-tree-removal-atlanta/` (anchor
-"24/7 emergency tree removal"). **Also link:** `/does-homeowners-insurance-cover-tree-removal/`,
-`/neighbors-dead-tree-fell-on-my-house/`, `/tree-fell-on-power-lines-who-is-responsible/`,
-`/emergency-tree-removal-atlanta-storm-damage/`.
-
-**10. Tree trimming disposal in metro Atlanta: yard waste rules, chipping and hauling** | 800/mo | KD 0
-Root: `tree trimming disposal`. Cluster: `tree debris removal` (1,400/mo, KD 0), how to dispose
-of tree branches, does the county pick up tree limbs, tree limb pickup Atlanta.
-Cluster D. What curbside yard-waste pickup takes in the big metro counties (bundle length rules,
-no stumps), what a chipper visit costs, when hauling is included in a trimming quote, firewood
-and mulch options. **Pillar link:** `/tree-trimming-pruning-services-in-metro-atlanta-ga/`
-(anchor "tree trimming service in Atlanta"). **Also link:** `/tree-trimming-cost-atlanta/`,
-`/land-clearing-cost-georgia/`, `/what-to-do-after-stump-grinding/`.
-
-**11. Stump grinder rental vs hiring a pro: the honest Atlanta math** | 3,000/mo | KD 2
-Root: `tree stump grinder rental`. Cluster: `tree stump grinder` (2,300/mo, KD 1), stump grinder
-rental cost, how to use a stump grinder, can I rent a stump grinder at Home Depot.
-Cluster B. Rental day rate plus trailer plus fuel plus the hours a first-timer actually needs,
-against a per-stump quote; the injury and utility-line risk; when renting wins (five small
-stumps on open ground) and when it does not. Adjacent-service post: Stanton does not rent
-machines, say so. **Pillar link:** `/stump-grinding-removal-services/` (anchor "stump grinding
-Atlanta"). **Also link:** `/how-long-does-stump-grinding-take/`,
-`/stump-grinding-cost-atlanta/`, `/diy-tree-removal-vs-professional/`.
-
-**12. Water oak trees in Georgia: why they fail at 40 and how to tell yours is going** | 2,400/mo | KD 1
-Root: `water oak tree`. Cluster: water oak lifespan, water oak problems, water oak vs willow oak
-(`willow oak tree` 3,100/mo, KD 1 as a comparison section), water oak removal.
-Cluster E. The most common failing tree in older metro Atlanta yards: short life, hollow trunks,
-heavy limb drop, why they look fine until they do not. **Pillar link:** `/oak-tree-diseases-georgia/`
-(anchor "oak tree diseases in Georgia"). **Also link:** `/is-my-tree-dead-or-dying/`,
-`/mushrooms-at-base-of-tree/`, `/dead-branches-in-tree/`, `/tree-removal-atlanta-ga/`.
-
-**13. Crane tree removal: when a crane is needed and what it adds to the price** | 2,300/mo | KD 0
-Root: `crane tree removal service`. Cluster: `crane tree removal` (1,400/mo, KD 0), crane tree
-removal cost, how does crane tree removal work, tree removal with crane near me.
-Cluster C. The three situations that call for a crane (no drop zone, tree over the house, dead
-wood that will not hold a climber), the day rate, how a crane job is sequenced, why it can be
-cheaper than three days of rigging. Adjacent-service post. **Pillar link:**
-`/how-much-does-tree-removal-cost-in-atlanta-2026-price-guide/` (anchor "tree removal prices in
-Atlanta"). **Also link:** `/tree-removal-atlanta-ga/`, `/emergency-tree-removal-atlanta/`,
-`/dead-pine-tree-removal/`.
-
-**14. Southern magnolia care in Georgia: leaf drop, pruning, and when to call someone** | 5,700/mo | KD 2
-Root: `southern magnolia tree`. Cluster: southern magnolia leaves falling, southern magnolia
-pruning, how big does a southern magnolia get, southern magnolia problems, little gem magnolia
-(`little gem magnolia tree` 3,000/mo, KD 3 as a section).
-Cluster E. Why the year-round leaf drop is normal, the one time of year to prune (right after
-bloom), why topping a magnolia ruins it, and the size reality for a small Atlanta lot.
-**Pillar link:** `/oak-tree-diseases-georgia/` (anchor "Georgia tree health guide"). **Also
-link:** `/best-trees-to-plant-in-georgia/`, `/tree-trimming-pruning-services-in-metro-atlanta-ga/`,
-`/how-far-to-plant-a-tree-from-house/`.
-
-**15. Storm tree removal: what downed-tree cleanup costs after a Georgia storm, and who pays** | 1,200/mo | KD 0
+**5. Storm tree removal: what downed-tree cleanup costs after a Georgia storm, and who pays** | 1,200/mo | KD 0
 Root: `storm tree removal`. Cluster: `downed tree removal` (2,000/mo, KD 0), `fallen tree
 removal` (900/mo, KD 0), storm damage tree removal cost, who pays for a fallen tree.
 Cluster A. Why storm pricing is higher (crews, risk, demand), the difference between a tree on
@@ -268,44 +186,42 @@ who show up after every ice storm. **Pillar link:** `/emergency-tree-removal-atl
 `/emergency-tree-removal-atlanta-storm-damage/`, `/how-to-protect-trees-from-storms/`,
 `/does-homeowners-insurance-cover-tree-removal/`, `/tree-struck-by-lightning/`.
 
-**16. Does homeowners insurance cover tree trimming? And what insurance your tree company must carry** | 800/mo | KD 1
-Root: `tree trimming insurance`. Cluster: is tree trimming covered by insurance, tree service
-insurance certificate, what insurance should a tree company have, liability vs workers comp.
-Cluster D. The short answer (no, trimming is maintenance), the two policies a legitimate crew
-carries and how to read a certificate, what happens to you if an uninsured climber gets hurt
-in your yard. **Pillar link:** `/tree-trimming-pruning-services-in-metro-atlanta-ga/` (anchor
-"insured tree trimming in Atlanta"). **Also link:**
+**6. Crane tree removal: when a crane is needed and what it adds to the price** | 2,300/mo | KD 0
+Root: `crane tree removal service`. Cluster: `crane tree removal` (1,400/mo, KD 0), crane tree
+removal cost, how does crane tree removal work, tree removal with crane near me.
+Cluster C. The three situations that call for a crane (no drop zone, tree over the house, dead
+wood that will not hold a climber), the day rate, how a crane job is sequenced, why it can be
+cheaper than three days of rigging. Adjacent-service post. **Pillar link:**
+`/how-much-does-tree-removal-cost-in-atlanta-2026-price-guide/` (anchor "tree removal prices in
+Atlanta"). **Also link:** `/tree-removal-atlanta-ga/`, `/emergency-tree-removal-atlanta/`,
+`/dead-pine-tree-removal/`.
+
+**7. Do you need a permit to remove a tree in metro Atlanta? City by city, in plain words** | 250/mo | KD 3
+Root: `tree removal permit`. Cluster: do you need a permit to cut down a tree, `atlanta tree
+ordinance` (10/mo, KD 4), city of Atlanta tree removal permit, tree removal permit Sandy Springs,
+tree removal permit Roswell, dead tree exemption, tree protection ordinance fines.
+Cluster C. Added 9 Nov 2026. The City of Atlanta tree protection ordinance in plain words (when a
+permit is needed, the dead-or-hazardous exemption and the arborist letter that goes with it,
+recompense fees), then the short version for Sandy Springs, Roswell, Alpharetta, Marietta and
+unincorporated Fulton, Cobb and Gwinnett, saying plainly where a homeowner needs nothing. Verify
+every rule on the city's own website before writing it and link that official page; if a rule
+cannot be confirmed, write "check with the city" instead of guessing. Who pulls the permit (the
+homeowner or the crew), how long approval takes, what a violation costs. **Pillar link:**
+`/tree-removal-atlanta-ga/` (anchor "tree removal in Atlanta"). **Also link:**
+`/how-much-does-tree-removal-cost-in-atlanta-2026-price-guide/`,
 `/how-to-choose-a-tree-service-company-7-questions-to-ask-before-you-hire/`,
-`/does-homeowners-insurance-cover-tree-removal/`, `/certified-arborist-vs-tree-service-company-atlanta/`.
+`/emergency-tree-removal-atlanta/`, `/is-my-tree-dead-or-dying/`.
 
-**17. Loblolly pine: the tree in every Atlanta yard, and when it becomes a hazard** | 1,700/mo | KD 0
-Root: `loblolly pine tree`. Cluster: loblolly pine lifespan, loblolly pine problems, loblolly
-pine root system, loblolly pine vs longleaf, how tall do loblolly pines get.
-Cluster E. The 100 ft timber tree that was never meant for a quarter-acre lot: shallow plate
-roots in red clay, pine beetles, the lean after saturated soil, the "pine straw and sap" phase.
-**Pillar link:** `/oak-tree-diseases-georgia/` (anchor "Georgia tree problems"). **Also link:**
-`/dead-pine-tree-removal/`, `/can-trimming-a-tree-kill-it/`, `/is-a-leaning-tree-dangerous/`,
-`/tree-removal-atlanta-ga/`.
-
-**18. Large tree removal: what changes when the tree is over 60 feet** | 1,200/mo | KD 0
+**8. Large tree removal: what changes when the tree is over 60 feet** | 1,200/mo | KD 0
 Root: `large tree removal`. Cluster: large tree removal cost, how much to remove a 100 ft tree,
 big tree removal near me, how long does it take to remove a large tree.
 Cluster C. Sectional takedown explained, the rigging, the crew size, the half-day to two-day
 range, price bands for 60 to 80 ft and 80 ft plus, and when a crane is the cheaper option.
 **Pillar link:** `/how-much-does-tree-removal-cost-in-atlanta-2026-price-guide/` (anchor "how
 much tree removal costs in Atlanta"). **Also link:** `/tree-removal-atlanta-ga/`,
-`/dead-pine-tree-removal/`, entry 13 once published.
+`/dead-pine-tree-removal/`, entry 6 (crane tree removal) once published.
 
-**19. What to do with a tree stump: 12 ideas, and when to just grind it** | 1,800/mo | KD 0
-Root: `tree stump ideas`. Cluster: `short tree stump ideas` (900/mo, KD 0), tree stump planter,
-tree stump table, tree stump landscaping ideas, what to do with tree stump in yard.
-Cluster B. Planters, side tables, a mushroom log, a bird bath base, carving, a kids' step; then
-the honest list of stumps you should not keep (termites near the house, sucker species, trip
-hazard in a kids' yard). **Pillar link:** `/stump-grinding-removal-services/` (anchor "stump
-grinding and removal"). **Also link:** `/what-to-do-after-stump-grinding/`,
-`/stump-grinding-before-and-after/`, `/stump-grinding-vs-stump-removal-which-is-right-for-your-atlanta-yard/`.
-
-**20. Who is responsible for cutting overhanging tree branches in Georgia?** | 500/mo | KD 0
+**9. Who is responsible for cutting overhanging tree branches in Georgia?** | 500/mo | KD 0
 Root: `who is responsible for cutting overhanging tree branches`. Cluster: neighbor's tree
 branches hanging over my yard, can I cut my neighbor's tree branches in Georgia, who pays to trim
 a neighbor's tree, Georgia tree law overhanging branches.
@@ -315,25 +231,7 @@ get an arborist letter. **Pillar link:** `/emergency-tree-removal-atlanta/` (anc
 tree service in Atlanta"). **Also link:** `/neighbors-dead-tree-fell-on-my-house/`,
 `/tree-fell-on-power-lines-who-is-responsible/`, `/tree-trimming-pruning-services-in-metro-atlanta-ga/`.
 
-**21. Pine tree trimming: should you limb up Georgia pines, and how far?** | 700/mo | KD 0
-Root: `pine tree trimming`. Cluster: how to trim a pine tree, can you trim the top of a pine
-tree, limbing up pine trees, when to trim pine trees in Georgia.
-Cluster D. Why you never top a pine, the one-third live crown rule, limbing up for a driveway or
-roof, dead-lower-limb removal, and the sap-season timing. **Pillar link:**
-`/tree-trimming-pruning-services-in-metro-atlanta-ga/` (anchor "pine and hardwood trimming in
-Atlanta"). **Also link:** `/can-trimming-a-tree-kill-it/`, `/tree-topping-why-its-bad-for-your-trees/`,
-`/dead-pine-tree-removal/`, `/tree-trimming-cost-atlanta/`.
-
-**22. Tree fungus on bark: what the growths mean and which ones are a death sentence** | 1,900/mo | KD 1
-Root: `tree fungus`. Cluster: `tree fungus removal` (600/mo, KD 0), `tree fungus treatment`
-(450/mo, KD 0), shelf fungus on tree, white fungus on tree bark, is tree fungus bad.
-Cluster E. Shelf and bracket fungi (internal rot), lichen (harmless), sooty mold (aphids),
-powdery mildew (cosmetic), and what a conk on a trunk means for a tree over a house.
-**Pillar link:** `/oak-tree-diseases-georgia/` (anchor "oak and hardwood diseases in Georgia").
-**Also link:** `/mushrooms-at-base-of-tree/`, `/how-to-tell-if-your-tree-is-sick/`,
-`/bark-falling-off-tree/`, `/is-my-tree-dead-or-dying/`.
-
-**23. Free tree removal: who actually does it in Georgia, and the catch** | 1,100/mo | KD 0
+**10. Free tree removal: who actually does it in Georgia, and the catch** | 1,100/mo | KD 0
 Root: `free tree removal`. Cluster: `free tree removal for seniors` (1,000/mo, KD 0), free
 tree removal in exchange for wood, utility company free tree removal, free tree removal near me.
 Cluster C. Straight talk: the utility right-of-way case, the firewood-for-removal trade (and
@@ -343,17 +241,7 @@ offers after a storm are usually not. **Pillar link:**
 removal in Atlanta"). **Also link:** `/tree-fell-on-power-lines-who-is-responsible/`,
 `/diy-tree-removal-vs-professional/`, `/tree-removal-atlanta-ga/`.
 
-**24. How to kill tree roots and stop the sprouts after a tree comes down** | 1,700/mo | KD 0
-Root: `how to kill tree roots`. Cluster: `tree root removal` (1,200/mo, KD 0), `cutting tree
-roots` (700/mo, KD 0), tree sprouts from roots after cutting down, how to stop tree roots from
-growing back.
-Cluster B. Why sweet gum, Bradford pear, crepe myrtle and mimosa keep sprouting, grinding depth
-and root chasing, the herbicide-on-fresh-cut method, and what never to pour in the ground near
-a sewer line. **Pillar link:** `/stump-grinding-removal-services/` (anchor "stump and root
-grinding"). **Also link:** `/will-cutting-tree-roots-kill-your-tree/`, `/what-to-do-after-stump-grinding/`,
-`/tree-roots-in-sewer-line/`.
-
-**25. Tree limb removal: cost, when you need a pro, and the limb over your roof** | 1,600/mo | KD 0
+**11. Tree limb removal: cost, when you need a pro, and the limb over your roof** | 1,600/mo | KD 0
 Root: `tree limb removal`. Cluster: `tree and limb removal` (1,600/mo, KD 5), large tree limb
 removal cost, how to remove a large tree branch, tree branch removal near me.
 Cluster C. Per-limb and per-hour pricing, the three-cut method for a limb you can reach from the
@@ -363,7 +251,130 @@ and how limb work is priced inside a trimming visit. **Pillar link:**
 cost guide"). **Also link:** `/tree-trimming-cost-atlanta/`, `/dead-branches-in-tree/`,
 `/tree-trimming-pruning-services-in-metro-atlanta-ga/`.
 
-**26. Tree disease treatment in Georgia: what an arborist can actually cure, and what they cannot** | 1,000/mo | KD 10
+**12. Loblolly pine: the tree in every Atlanta yard, and when it becomes a hazard** | 1,700/mo | KD 0
+Root: `loblolly pine tree`. Cluster: loblolly pine lifespan, loblolly pine problems, loblolly
+pine root system, loblolly pine vs longleaf, how tall do loblolly pines get.
+Cluster E. The 100 ft timber tree that was never meant for a quarter-acre lot: shallow plate
+roots in red clay, pine beetles, the lean after saturated soil, the "pine straw and sap" phase.
+**Pillar link:** `/oak-tree-diseases-georgia/` (anchor "Georgia tree problems"). **Also link:**
+`/dead-pine-tree-removal/`, `/can-trimming-a-tree-kill-it/`, `/is-a-leaning-tree-dangerous/`,
+`/tree-removal-atlanta-ga/`.
+
+**13. Does homeowners insurance cover tree trimming? And what insurance your tree company must carry** | 800/mo | KD 1
+Root: `tree trimming insurance`. Cluster: is tree trimming covered by insurance, tree service
+insurance certificate, what insurance should a tree company have, liability vs workers comp.
+Cluster D. The short answer (no, trimming is maintenance), the two policies a legitimate crew
+carries and how to read a certificate, what happens to you if an uninsured climber gets hurt
+in your yard. **Pillar link:** `/tree-trimming-pruning-services-in-metro-atlanta-ga/` (anchor
+"insured tree trimming in Atlanta"). **Also link:**
+`/how-to-choose-a-tree-service-company-7-questions-to-ask-before-you-hire/`,
+`/does-homeowners-insurance-cover-tree-removal/`, `/certified-arborist-vs-tree-service-company-atlanta/`.
+
+**14. Water oak trees in Georgia: why they fail at 40 and how to tell yours is going** | 2,400/mo | KD 1
+Root: `water oak tree`. Cluster: water oak lifespan, water oak problems, water oak vs willow oak
+(`willow oak tree` 3,100/mo, KD 1 as a comparison section), water oak removal.
+Cluster E. The most common failing tree in older metro Atlanta yards: short life, hollow trunks,
+heavy limb drop, why they look fine until they do not. **Pillar link:** `/oak-tree-diseases-georgia/`
+(anchor "oak tree diseases in Georgia"). **Also link:** `/is-my-tree-dead-or-dying/`,
+`/mushrooms-at-base-of-tree/`, `/dead-branches-in-tree/`, `/tree-removal-atlanta-ga/`.
+
+**15. Oak tree trimming in Georgia: when to cut, how much, and the oak wilt rule** | 2,100/mo | KD 0
+Root: `oak tree trimming`. Cluster: `oak tree pruning` (900/mo, KD 0), trimming oak trees, when
+to trim oak trees in Georgia, how much to cut off an oak.
+Cluster D. Dormant-season timing (December to February here), the 25 percent rule, why you never
+prune oaks in spring and early summer (oak wilt beetles), water oak versus white oak differences.
+**Pillar link:** `/tree-trimming-pruning-services-in-metro-atlanta-ga/` (anchor "tree trimming
+and pruning in Atlanta"). **Also link:** `/best-time-to-trim-trees-atlanta-ga/`,
+`/oak-tree-diseases-georgia/`, `/tree-topping-why-its-bad-for-your-trees/`,
+`/tree-trimming-cost-atlanta/`.
+
+**16. How to get rid of tree stumps: 6 ways ranked by cost and time** | 30,000/mo (`stump removal`) | KD 1
+Root: `how to get rid of tree stumps` (Parent Topic of `stump removal` 30,000/mo KD 1, `tree
+stump removal` 16,000/mo KD 6, `easy tree stump removal` 1,600/mo KD 0, `how to remove a tree
+stump` 1,300/mo KD 1, `how to remove tree stump` 1,200/mo KD 1).
+Cluster B. The biggest keyword in this file. Grinding, digging, chemical rotting, burning (not in
+most metro counties), Epsom salt, leaving it: cost, time and what it leaves behind for each, with
+Georgia red clay and pine taproots as the local angle. **Pillar link:**
+`/stump-grinding-removal-services/` (anchor "stump grinding in Atlanta"). **Also link:**
+`/stump-grinding-cost-atlanta/`, `/stump-grinding-vs-stump-removal-which-is-right-for-your-atlanta-yard/`,
+`/what-to-do-after-stump-grinding/`, `/stump-grinding-roswell-ga/`.
+
+**17. Why do Bradford pear trees smell? And why Georgia wants them gone** | 3,100/mo | KD 2
+Root: `bradford pear tree smell`. Cluster: why do bradford pears stink, bradford pear bloom
+smell, when do bradford pears bloom in Georgia, Georgia Bradford pear bounty program.
+Cluster E. The trimethylamine answer in plain words, the March bloom in metro Atlanta, the
+state's replacement bounty, and the honest case for taking one down before it splits. **Pillar
+link:** `/oak-tree-diseases-georgia/` (anchor "oak tree diseases in Georgia", in a section on
+what to plant instead). **Also link:** `/bradford-pear-tree-problems/`,
+`/best-trees-to-plant-in-georgia/`, `/tree-removal-atlanta-ga/`.
+
+**18. Sweet gum tree: how to identify one, why people remove them, and what it costs** | 12,000/mo | KD 4
+Root: `sweet gum tree`. Cluster: `sweet gum` (2,400/mo, KD 7), sweetgum tree identification,
+sweet gum tree roots, sweet gum tree lifespan, are sweet gum trees bad.
+Cluster E. The species post the existing "sweet gum balls" post is not: star leaves, corky
+twigs, 60 to 100 ft height, shallow surface roots that heave sidewalks in older Atlanta
+neighborhoods, and the removal cost band for a mature one. **Pillar link:**
+`/oak-tree-diseases-georgia/` (anchor "common Georgia tree problems"). **Also link:**
+`/sweet-gum-tree-balls/`, `/tree-roots-above-ground-what-to-do/`,
+`/how-much-does-tree-removal-cost-in-atlanta-2026-price-guide/`.
+
+**19. Tree trimming disposal in metro Atlanta: yard waste rules, chipping and hauling** | 800/mo | KD 0
+Root: `tree trimming disposal`. Cluster: `tree debris removal` (1,400/mo, KD 0), how to dispose
+of tree branches, does the county pick up tree limbs, tree limb pickup Atlanta.
+Cluster D. What curbside yard-waste pickup takes in the big metro counties (bundle length rules,
+no stumps), what a chipper visit costs, when hauling is included in a trimming quote, firewood
+and mulch options. **Pillar link:** `/tree-trimming-pruning-services-in-metro-atlanta-ga/`
+(anchor "tree trimming service in Atlanta"). **Also link:** `/tree-trimming-cost-atlanta/`,
+`/land-clearing-cost-georgia/`, `/what-to-do-after-stump-grinding/`.
+
+**20. Does stump killer work? Chemicals, Epsom salt, and when grinding is faster** | 2,800/mo | KD 0
+Root: `how to kill a tree stump`. Cluster: `tree stump killer` (2,700/mo, KD 0), `natural stump
+removal` (1,400/mo, KD 4), `natural tree stump removal` (700/mo, KD 2), Epsom salt tree stump,
+how long does stump killer take.
+Cluster B. Honest timelines (months to years for chemicals, one afternoon for grinding), the
+sucker problem with sweet gum and Bradford pear stumps, cost per method. **Pillar link:**
+`/stump-grinding-removal-services/` (anchor "professional stump grinding"). **Also link:**
+`/how-long-does-stump-grinding-take/`, `/stump-grinding-cost-atlanta/`, entry 16 (how to get rid of tree stumps) once it is published.
+
+**21. Southern magnolia care in Georgia: leaf drop, pruning, and when to call someone** | 5,700/mo | KD 2
+Root: `southern magnolia tree`. Cluster: southern magnolia leaves falling, southern magnolia
+pruning, how big does a southern magnolia get, southern magnolia problems, little gem magnolia
+(`little gem magnolia tree` 3,000/mo, KD 3 as a section).
+Cluster E. Why the year-round leaf drop is normal, the one time of year to prune (right after
+bloom), why topping a magnolia ruins it, and the size reality for a small Atlanta lot.
+**Pillar link:** `/oak-tree-diseases-georgia/` (anchor "Georgia tree health guide"). **Also
+link:** `/best-trees-to-plant-in-georgia/`, `/tree-trimming-pruning-services-in-metro-atlanta-ga/`,
+`/how-far-to-plant-a-tree-from-house/`.
+
+**22. Pine tree trimming: should you limb up Georgia pines, and how far?** | 700/mo | KD 0
+Root: `pine tree trimming`. Cluster: how to trim a pine tree, can you trim the top of a pine
+tree, limbing up pine trees, when to trim pine trees in Georgia.
+Cluster D. Why you never top a pine, the one-third live crown rule, limbing up for a driveway or
+roof, dead-lower-limb removal, and the sap-season timing. **Pillar link:**
+`/tree-trimming-pruning-services-in-metro-atlanta-ga/` (anchor "pine and hardwood trimming in
+Atlanta"). **Also link:** `/can-trimming-a-tree-kill-it/`, `/tree-topping-why-its-bad-for-your-trees/`,
+`/dead-pine-tree-removal/`, `/tree-trimming-cost-atlanta/`.
+
+**23. Tree fungus on bark: what the growths mean and which ones are a death sentence** | 1,900/mo | KD 1
+Root: `tree fungus`. Cluster: `tree fungus removal` (600/mo, KD 0), `tree fungus treatment`
+(450/mo, KD 0), shelf fungus on tree, white fungus on tree bark, is tree fungus bad.
+Cluster E. Shelf and bracket fungi (internal rot), lichen (harmless), sooty mold (aphids),
+powdery mildew (cosmetic), and what a conk on a trunk means for a tree over a house.
+**Pillar link:** `/oak-tree-diseases-georgia/` (anchor "oak and hardwood diseases in Georgia").
+**Also link:** `/mushrooms-at-base-of-tree/`, `/how-to-tell-if-your-tree-is-sick/`,
+`/bark-falling-off-tree/`, `/is-my-tree-dead-or-dying/`.
+
+**24. Stump grinder rental vs hiring a pro: the honest Atlanta math** | 3,000/mo | KD 2
+Root: `tree stump grinder rental`. Cluster: `tree stump grinder` (2,300/mo, KD 1), stump grinder
+rental cost, how to use a stump grinder, can I rent a stump grinder at Home Depot.
+Cluster B. Rental day rate plus trailer plus fuel plus the hours a first-timer actually needs,
+against a per-stump quote; the injury and utility-line risk; when renting wins (five small
+stumps on open ground) and when it does not. Adjacent-service post: Stanton does not rent
+machines, say so. **Pillar link:** `/stump-grinding-removal-services/` (anchor "stump grinding
+Atlanta"). **Also link:** `/how-long-does-stump-grinding-take/`,
+`/stump-grinding-cost-atlanta/`, `/diy-tree-removal-vs-professional/`.
+
+**25. Tree disease treatment in Georgia: what an arborist can actually cure, and what they cannot** | 1,000/mo | KD 10
 Root: `tree disease treatment`. Cluster: how to treat tree disease, tree disease treatment near
 me, can a diseased tree be saved, tree injection treatment cost.
 Cluster E. Treatable (anthracnose, leaf spot, scale, borers caught early, iron chlorosis) versus
@@ -372,6 +383,15 @@ the honest line where removal is cheaper than treatment. **Pillar link:**
 `/oak-tree-diseases-georgia/` (anchor "oak tree diseases in Georgia"). **Also link:**
 `/how-to-tell-if-your-tree-is-sick/`, `/why-is-my-tree-losing-leaves-in-summer/`,
 `/certified-arborist-vs-tree-service-company-atlanta/`.
+
+**26. What to do with a tree stump: 12 ideas, and when to just grind it** | 1,800/mo | KD 0
+Root: `tree stump ideas`. Cluster: `short tree stump ideas` (900/mo, KD 0), tree stump planter,
+tree stump table, tree stump landscaping ideas, what to do with tree stump in yard.
+Cluster B. Planters, side tables, a mushroom log, a bird bath base, carving, a kids' step; then
+the honest list of stumps you should not keep (termites near the house, sucker species, trip
+hazard in a kids' yard). **Pillar link:** `/stump-grinding-removal-services/` (anchor "stump
+grinding and removal"). **Also link:** `/what-to-do-after-stump-grinding/`,
+`/stump-grinding-before-and-after/`, `/stump-grinding-vs-stump-removal-which-is-right-for-your-atlanta-yard/`.
 
 **27. Pruning Japanese and red maples in Georgia: timing, cuts and the bleeding myth** | 800/mo | KD 0
 Root: `maple tree trimming`. Cluster: pruning maple trees, `japanese maple tree` pruning section
@@ -384,7 +404,17 @@ maple limb-drop issue in older Atlanta neighborhoods. **Pillar link:**
 Atlanta"). **Also link:** `/best-time-to-trim-trees-atlanta-ga/`, `/smart-safe-tree-pruning-guide/`,
 `/crepe-myrtle-pruning/`.
 
-**28. How to prune a peach tree in Georgia: the open-center method in 5 cuts** | 1,200/mo | KD 1
+**28. How to kill tree roots and stop the sprouts after a tree comes down** | 1,700/mo | KD 0
+Root: `how to kill tree roots`. Cluster: `tree root removal` (1,200/mo, KD 0), `cutting tree
+roots` (700/mo, KD 0), tree sprouts from roots after cutting down, how to stop tree roots from
+growing back.
+Cluster B. Why sweet gum, Bradford pear, crepe myrtle and mimosa keep sprouting, grinding depth
+and root chasing, the herbicide-on-fresh-cut method, and what never to pour in the ground near
+a sewer line. **Pillar link:** `/stump-grinding-removal-services/` (anchor "stump and root
+grinding"). **Also link:** `/will-cutting-tree-roots-kill-your-tree/`, `/what-to-do-after-stump-grinding/`,
+`/tree-roots-in-sewer-line/`.
+
+**29. How to prune a peach tree in Georgia: the open-center method in 5 cuts** | 1,200/mo | KD 1
 Root: `how to prune a peach tree`. Cluster: when to prune peach trees in Georgia, peach tree
 pruning for beginners, open center pruning, `how to prune a fig tree` (900/mo, KD 2 as a short
 companion section).
